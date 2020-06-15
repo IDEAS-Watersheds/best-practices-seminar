@@ -15,6 +15,11 @@
 | June 17  |  (Ahmad, Subhagya)         |June 26   | Debugger Tutorial (DDT, and MAP profiler) |
 | July 1   |   (Tristan, Kewei)         |July 10   |  ?? |
 | July 15  | ???                        |July 24   |  ?? |
+| July 29  | ???                        |Aug 7     |  ?? |
+| Aug 12   | ???                        |Aug 21     |  ?? |
+| Aug 26   | ???                        |Sept 4    |  ?? |
+| Sept 9   | ???                        |Sept 18    |  ?? |
+| Sept 23   | ???                        |Oct 2    |  ?? |
 
 6/3 - benchmarking (Tristan, Kewei) or 7/1
 
