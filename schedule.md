@@ -4,29 +4,32 @@
 * Software Best Practices: Every other Friday (11-12 PT)
   - Lead:  Steve Smith (LLNL)
 
-| Date     |   Modeling Best Practices  | Date     | Software Best Practices |
-|----------|----------------------------|-------------|-------------------------|
-|          |                            |Sept 9, 2019 |Introduction & Kick-Off |
-|          |                            |Oct 23, 2019 |Introduction to Docker|
-|          |                            |Nov 20, 2019 |Docker Part 2 (examples)|
-|          |                            |Dec 18, 2019 |Introduction to MPI |
-|          |                            |Jan 15, 2020 |Debugging Best Practices |
-|          |                            |Feb 19, 2020 |Introduction to Kokkos (via HPC Best Practices Seminar)|
-| June 17  |  (Ahmad, Subhagya)         |June 26   | Debugger Tutorial (DDT, and MAP profiler) |
-| July 1   |   (Tristan, Kewei)         |July 10   |  ?? |
-| July 15  | ???                        |July 24   |  ?? |
-| July 29  | ???                        |Aug 7     |  ?? |
-| Aug 12   | ???                        |Aug 21     |  ?? |
-| Aug 26   | ???                        |Sept 4    |  ?? |
-| Sept 9   | ???                        |Sept 18    |  ?? |
-| Sept 23   | ???                        |Oct 2    |  ?? |
+# Modeling Best Practices Schedule
 
-6/3 - benchmarking (Tristan, Kewei) or 7/1
+| Date     |  Presenter                  | Title and Topic Description                    |
+|:---------|:----------------------------|:-----------------------------------------------|
+| June 17  |  (Ahmad, Subhagya)         |
+| July 1   |   (Tristan, Kewei)         |
+| July 15  | ???                        |
+| July 29  | ???                        |
+| Aug 12   | ???                        |
+| Aug 26   | ???                        |
+| Sept 9   | ???                        |
+| Sept 23  | ???                        |
 
-6/17 - multiscale hyporheic 
+# Software Best Practices Schedule
 
-June 12 - Steve debugger tutorial (DDT, and MAP profiler).
+| Date     |   Presenter                | Title and Topic Description|
+|:----------|:--------------------------|:-----------------------------------------------|
+|Sept 9, 2019 |Steve Smith | Introduction & Kick-Off |
+|Oct 23, 2019 |Steve Smith | Introduction to Docker|
+|Nov 20, 2019 |Steve Smith | Docker Part 2 (examples)|
+|Dec 18, 2019 |Steve Smith | Introduction to MPI |
+|Jan 15, 2020 |Steve Smith | Debugging Best Practices |
+|Feb 19, 2020 |HPC Best Practices Seminar | Introduction to Kokkos|
+|June 26, 2020| Steve Smith | Debugger Tutorial (DDT, and MAP profiler) |
 
-June 17 - Modeling/Science (Ahmad, Subhagya)
+
+
 
 
