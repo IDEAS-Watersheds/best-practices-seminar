@@ -29,8 +29,7 @@ IDEAS-Watersheds Team
 | Tristan Babey	| Stanford
 | David Gochis	| NCAR
 | Katelyn FitzGerald	| NCAR
-| Ryan Cabell	| NCAR
-	
+| Ryan Cabell	| NCAR	
 | Ken Kemner	| ANL
-| Mavrik Zavarin	| LLNL
+| Mavrik Zavarin| LLNL
 	
