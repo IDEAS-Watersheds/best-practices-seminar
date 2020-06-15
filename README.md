@@ -2,9 +2,9 @@
 
 # 2020 Schedule
 * Modeling Best Practices: Every other Wednesday (11-12 PT)
-** Lead:  June, July, August, September
+  - Lead:  June, July, August, September (need to assign)
 * Software Best Practices: Every other Friday (11-12 PT)
-** Lead:  Steve Smith (LLN)
+  - Lead:  Steve Smith (LLN)
 
 | Date     |   Modeling Best Practices  | Date     | Software Best Practices |
 |----------|----------------------------|----------|-------------------------|
@@ -13,6 +13,9 @@
 | July 15  | ???                |July 24   |  ?? |
 
 6/3 - benchmarking (Tristan, Kewei) or 7/1
+
 6/17 - multiscale hyporheic 
+
 June 12 - Steve debugger tutorial (DDT, and MAP profiler).
+
 June 17 - Modeling/Science (Ahmad, Subhagya)
