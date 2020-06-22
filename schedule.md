@@ -1,5 +1,5 @@
 # Schedule
-* Modeling Best Practices: Every other Wednesday (11-12 PT)
+* Modeling Best Practices: Every other Wednesday 11:00-12:00 PM (PDT), 12:00 - 1:00 PM (MT), 2:00-3:00M (EDT)
   - Lead:  June, July, August, September (need to assign)
 * Software Best Practices: Every other Friday (11-12 PT)
   - Lead:  Steve Smith (LLNL)
@@ -8,7 +8,7 @@
 
 | Date     |  Presenter                  | Title and Topic Description                    |
 |:---------|:----------------------------|:-----------------------------------------------|
-| June 17  |  (Ahmad, Subhagya)         |
+| June 17  |Ahmad Jan and Saubhagya Rathore | [Multiscale modeling of stream corridor hydrobiogeochemistry with ATS](https://docs.google.com/document/d/13GPr3n_4mnvtZ7vifSFwIJpsALzl48bKNWnznI2vzvI/edit#heading=h.mn0j14goyz4d) | 
 | July 1   |   (Tristan, Kewei)         |
 | July 15  | ???                        |
 | July 29  | ???                        |
