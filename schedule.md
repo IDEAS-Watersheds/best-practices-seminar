@@ -4,7 +4,7 @@
 * Software Best Practices: Every other Friday (11-12 PT)
   - Lead:  Steve Smith (LLNL)
 
-# Modeling Best Practices Schedule
+# Modeling Case Studies Schedule
 
 | Date     |  Presenter                  | Title and Topic Description                    |
 |:---------|:----------------------------|:-----------------------------------------------|
