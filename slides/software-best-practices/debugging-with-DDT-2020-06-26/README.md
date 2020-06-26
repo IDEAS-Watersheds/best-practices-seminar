@@ -64,16 +64,11 @@ Indeed if you do not do -O0 on Cori, DDT does not seem to find symbol informatio
 `-g` to enable debugging symbols.
 
 `-O0 -O1 -O2 -O3` are common flags for optimization levels, 0=no
-optimization.  You can combine both -g and -O[123] but be aware the
-compiler may reorder statements, leave out unused statements,
-optimize away temporary variables etc.  Obviously this can make
-understanding what is going on more difficult.  Turning on -g with
-optimization is useful when you have get a core dump from a
-production run.
+optimization.  
 
 ## Connect to Cori / Load Forge/DDT
 
-Login as you normally would  To run DDT you either need an X server
+Login as you normally would.  In order to run DDT you need an X server
 installed on your local machine or install the DDT client.
 
 From a Linux/MacOS machine connect to Cori using a command line ssh with forwarding X11:
