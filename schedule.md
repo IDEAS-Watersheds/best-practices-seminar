@@ -9,7 +9,7 @@
 | Date     |  Presenter                  | Title and Topic Description                    |
 |:---------|:----------------------------|:-----------------------------------------------|
 | June 17  |Ahmad Jan and Saubhagya Rathore | [Multiscale modeling of stream corridor hydrobiogeochemistry with ATS](https://docs.google.com/document/d/13GPr3n_4mnvtZ7vifSFwIJpsALzl48bKNWnznI2vzvI/edit#heading=h.mn0j14goyz4d) | 
-| July 1   |   (Tristan, Kewei)         |
+| July 1   |Kewei Chen, Tristan Babey   | Using a column experiment as an example for benchmarking reactive transport simulators |
 | July 15  | ???                        |
 | July 29  | ???                        |
 | Aug 12   | ???                        |
