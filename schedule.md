@@ -28,7 +28,7 @@
 |Jan 15, 2020 |Steve Smith | Debugging Best Practices |
 |Feb 19, 2020 |HPC Best Practices Seminar | Introduction to Kokkos|
 |June 26, 2020| Steve Smith | Debugger Tutorial (DDT, and MAP profiler) |
-|July 10, 2020 |
+|July 10, 2020 |            | Jupyter Notebooks |
 |July 24, 2020 |
 |Aug 7, 2020 |
 |Aug 21, 2020 |
