@@ -1,9 +1,10 @@
 IDEAS-Watersheds Team
 
-|Name       |Organization |Short Bio & areas of interest | 
-|-----------|:-------------|:-------------------|
-| J. David Moulton	| LANL
-| Hai Ah Nam	| LANL
+|Research Activity | Name         |Organization        |Short Bio & areas of interest | 
+|------------------|:-------------|:-------------------|:-----------------------------|
+| Watershed Function | Ilhan Özgen	| LBNL | (PD) Expertise in computational hydrology. Developing mutiscale simulation tools.\
+| SFA Partnership:   | Zexuan Xu	| LBNL | (PD) Expertise in hydrological modeling ranging from hillslope-, to watershed-, to global scales. Driving the application of reactive transport for integrated hydrology \
+| East River Use Case | 
 | Daniil Svyatsky	| LANL
 | Daniel Livingston	| LANL
 | Laura Condon	| University of Arizona
@@ -17,8 +18,8 @@ IDEAS-Watersheds Team
 | Kewei Chen	| PNNL
 | Hyun-Seob Song 	| PNNL
 | Sergi Molins Rafa	| LBNL
-| Ilhan Özgen	| LBNL
-| Zexuan Xu	| LBNL
+| 
+| 
 | Dipankar Dwivedi	| LBNL
 | Scott Painter	| ORNL
 | Saubhagya Singh Rathore | ORNL
@@ -32,4 +33,6 @@ IDEAS-Watersheds Team
 | Ryan Cabell	| NCAR	
 | Ken Kemner	| ANL
 | Mavrik Zavarin| LLNL
+| J. David Moulton	| LANL
+| Hai Ah Nam	| LANL
 	
