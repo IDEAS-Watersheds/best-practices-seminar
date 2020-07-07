@@ -1,8 +1,7 @@
 IDEAS-Watersheds Team
 
 |Name         |Organization        |Short Bio, Areas of Interest, Relevant Links | 
-|------------------|:-------------|:-------------------|:-----------------------------|
-
+|------------------|:-------------|:-------------------|
 | Ilhan Özgen	| LBNL | (PD) Expertise in computational hydrology. Developing mutiscale simulation tools.|
 |Zexuan Xu	| LBNL | (PD) Expertise in hydrological modeling ranging from hillslope-, to watershed-, to global scales. Driving the application of reactive transport for integrated hydrology |
 | Daniil Svyatsky	| LANL
