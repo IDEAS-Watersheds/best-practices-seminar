@@ -1,10 +1,10 @@
 IDEAS-Watersheds Team
 
-|Research Activity | Name         |Organization        |Short Bio & areas of interest | 
+|Name         |Organization        |Short Bio, Areas of Interest, Relevant Links | 
 |------------------|:-------------|:-------------------|:-----------------------------|
-| Watershed Function | Ilhan Özgen	| LBNL | (PD) Expertise in computational hydrology. Developing mutiscale simulation tools.\
-| SFA Partnership:   | Zexuan Xu	| LBNL | (PD) Expertise in hydrological modeling ranging from hillslope-, to watershed-, to global scales. Driving the application of reactive transport for integrated hydrology \
-| East River Use Case | 
+
+| Ilhan Özgen	| LBNL | (PD) Expertise in computational hydrology. Developing mutiscale simulation tools.|
+|Zexuan Xu	| LBNL | (PD) Expertise in hydrological modeling ranging from hillslope-, to watershed-, to global scales. Driving the application of reactive transport for integrated hydrology |
 | Daniil Svyatsky	| LANL
 | Daniel Livingston	| LANL
 | Laura Condon	| University of Arizona
