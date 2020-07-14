@@ -10,7 +10,7 @@
 |:---------|:----------------------------|:-----------------------------------------------|
 | June 17  |Ahmad Jan and Saubhagya Rathore | [Multiscale modeling of stream corridor hydrobiogeochemistry with ATS](https://docs.google.com/document/d/13GPr3n_4mnvtZ7vifSFwIJpsALzl48bKNWnznI2vzvI/edit#heading=h.mn0j14goyz4d) | 
 | July 1   |Kewei Chen, Tristan Babey   | [Using a column experiment as an example for benchmarking reactive transport simulators](https://docs.google.com/document/d/1lJ0zAHwIxbFIm7UDhe2UVmNJby2qG0ps-cVCN3zKXp8/edit#) |
-| July 15  |Ilhan Ozgen                 |Modeling integrated hydrology using the IDEAS-Watersheds software ecosystem
+| July 15  |Ilhan Ozgen                 |[Modeling integrated hydrology using the IDEAS-Watersheds software ecosystem](https://docs.google.com/document/d/1xYKTnJJI7VrqhxGVxakJZfksOPECR7qzX6X0zK7eSHM/edit#heading=h.gqi05zuawjqx)
 | July 29  | ???                        |
 | Aug 12   | ???                        |
 | Aug 26   | ???                        |
