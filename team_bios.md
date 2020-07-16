@@ -17,8 +17,6 @@ IDEAS-Watersheds Team
 | Kewei Chen	| PNNL
 | Hyun-Seob Song 	| PNNL
 | Sergi Molins Rafa	| LBNL
-| 
-| 
 | Dipankar Dwivedi	| LBNL
 | Scott Painter	| ORNL
 | Saubhagya Singh Rathore | ORNL
