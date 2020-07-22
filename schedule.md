@@ -28,8 +28,8 @@
 |Jan 15, 2020 |Steve Smith | Debugging Best Practices |
 |Feb 19, 2020 |HPC Best Practices Seminar | Introduction to Kokkos|
 |June 26, 2020| Steve Smith | Debugger Tutorial (DDT, and MAP profiler) |
-|July 10, 2020 |Pin Shuai, Jiang Peishi | Jupyter Notebooks Introduction - Setting up a basic workflow |
-|July 24, 2020 |
+|July 10, 2020 |Pin Shuai, Jiang Peishi | [Jupyter Notebooks Introduction - Setting up a basic workflow](https://docs.google.com/document/d/1rxZgGx3lPpPGN4D3JgU9O-b4b_dsmbneYzVFRBsYS5c/edit#heading=h.rx16jl6unwc4) |
+|July 24, 2020 |Pin Shuai, Jiang Peishi | [Jupyter Notebooks - JupyterLab Demo on NERSC, git for notebook tracking, and discussions on workflows](https://docs.google.com/document/d/1TR51Mh9vpWwJ6juZ1-e0N9bwOIcprdyoouizhnPO84w/edit#heading=h.y0woippppf3r) |
 |Aug 7, 2020 |
 |Aug 21, 2020 |
 |Sept 4, 2020 |
