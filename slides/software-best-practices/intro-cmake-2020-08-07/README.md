@@ -158,6 +158,13 @@ You then build using the generated Makefile:
 ```bash
 make
 ```
+
+CMake can be used to invoke 'make' for more portability (e.g. using something other than 'make' to build).
+
+```bash
+cmake -- build .
+```
+
 And execute the example built:
 
 ```bash
@@ -213,6 +220,12 @@ On my system one of this lines compiles the code, here we can see CMake add the 
 ```
 ## Example 3
 
+Multiple source files, showing use of a variable in CMake.
 
-
+```cmake
+# Adds an example to the project, multiple source files using a
+# variable to store names of the source files
+set(SRC example3.cxx unique-code.cxx)
+add_executable(example3 ${SRC})
+```
 
