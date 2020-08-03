@@ -109,4 +109,110 @@ cd best-practices-seminar/slides/software-best-practices/intro-cmake-2020-08-07
 
 ## First example
 
+The example-1 directory has a very basic CMake example.   Single source file (example1.cxx) and no dependencies.
+
+### CMakeLists.txt
+
+CMake uses text files (CMakeLists.txt) for configuring a project.   Here what the CMakeList.txt looks like:
+
+```cmake
+# What version of CMake is require for this project
+cmake_minimum_required(VERSION 3.10)
+
+# Name of the project
+project(Example1)
+
+# Adds an example to the project, single source file
+add_executable(example1 example1.cxx)
+```
+
+#### Creating a UNIX Makefile
+
+You setup a build directory for running CMake, this keeps the
+temporary build files, object files, executables seperated from the
+source code.  Directory is conventionally called 'build' and is
+normally created at the root of the source tree or parallel to it.
+
+Command to run CMake on a Unix system:
+
+```bash
+cd example-1
+
+mkdir build
+
+cmake ..
+```
+
+The ".." argument to cmake specifies the path to the project CMakeLists.txt file.
+
+This doesn't build the example, it creates the files needed to build.  In this case a Makefile and several other support files:
+
+```
+CMakeCache.txt CMakeFiles cmake_install.cmake Makefile
+```
+
+#### Building the application with Unix Make
+
+You then build using the generated Makefile:
+
+```bash
+make
+```
+And execute the example built:
+
+```bash
+./example1
+```
+
+## Second example
+
+A common portablity problem is platforms/compilers use different
+options/flags.  CMake can help specify these in a platform/compiler
+indepent way.  This assumes that your compiler is support by CMake but
+most are (GNU, Intel, Cray, XLC).
+
+### CMakeLists.txt
+
+# What version of CMake is require for this project
+cmake_minimum_required(VERSION 3.10)
+
+# Name of the project
+project(Example2)
+
+# Use C++14 options in this compile as example of using CMake to
+# set compilation options in a platform/compiler independent way.
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Adds an example to the project, single source file
+add_executable(example2 example2.cxx)
+
+
+### Creating the Unix Makefile
+
+Same as example 1:
+
+```bash
+cd example-2
+mkdir build
+cmake ..
+```
+
+### What is going on in my build?
+
+By default CMake hides what the build is doing.  The 'VERBOSE=1' flag will show commands as they execute:
+
+```bash
+make VERBOSE=1
+```
+
+On my system one of this lines compiles the code, here we can see CMake add the '-std=gnu++14' argument to use C++14 as requested.
+
+```bash
+/usr/bin/c++    -std=gnu++14 -o CMakeFiles/example2.dir/example2.cxx.o -c /home/smithsg/projects/ideas/best-practices-seminar/slides/software-best-practices/intro-cmake-2020-08-07/example-2/example2.cxx
+```
+## Example 3
+
+
+
 
