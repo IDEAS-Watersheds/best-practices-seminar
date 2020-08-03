@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Name of the project
-project(Example2)
+project(Example3)
 
 # Use C++14 options in this compile as example of using CMake to
 # set compilation options in a platform/compiler independent way.
