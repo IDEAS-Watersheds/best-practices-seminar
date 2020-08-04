@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(Example)
+project(Example LANGUAGES CXX)
 
 set (EXAMPLE_HAVE_FLUX_CAPACITOR False CACHE BOOL "Flux capacitor option enabled")
 

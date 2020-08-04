@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Name of the project
-project(Example4)
+project(Example4 LANGUAGES C)
 
 
 # Many libraries have scripts supplied to determine what include paths

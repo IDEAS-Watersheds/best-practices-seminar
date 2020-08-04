@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Name of the project
-project(Example5)
+project(Example5 LANGUAGES C)
 
 find_package(MPI REQUIRED)
 
