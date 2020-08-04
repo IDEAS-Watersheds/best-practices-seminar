@@ -69,6 +69,12 @@ https://cmake.org/documentation/
 #### Introductory Tutorial
 https://cmake.org/cmake/help/latest/guide/tutorial/index.html
 
+#### CMake Community Wiki
+
+Useful guides to specific CMake features.
+
+https://gitlab.kitware.com/cmake/community/-/wikis/home
+
 ### Mastering CMake by Ken Martin and Bill Hoffman
 
 I have mixed feelings about this book.  The first chapters can be
@@ -107,7 +113,7 @@ tar -xvf cmake-3.14.5-Linux-x86_64.tar.gz
 git clone https://github.com/IDEAS-Watersheds/best-practices-seminar.git
 cd best-practices-seminar/slides/software-best-practices/intro-cmake-2020-08-07
 
-## First example
+## Single file example
 
 The example-1 directory has a very basic CMake example.   Single source file (example1.cxx) and no dependencies.
 
@@ -171,15 +177,18 @@ And execute the example built:
 ./example1
 ```
 
-## Second example
+## Example setting compiler flag
 
 A common portablity problem is platforms/compilers use different
 options/flags.  CMake can help specify these in a platform/compiler
 indepent way.  This assumes that your compiler is support by CMake but
 most are (GNU, Intel, Cray, XLC).
 
+Example is supplied in example-2 directory.
+
 ### CMakeLists.txt
 
+```cmake
 # What version of CMake is require for this project
 cmake_minimum_required(VERSION 3.10)
 
@@ -193,7 +202,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Adds an example to the project, single source file
 add_executable(example2 example2.cxx)
-
+```
 
 ### Creating the Unix Makefile
 
@@ -218,9 +227,12 @@ On my system one of this lines compiles the code, here we can see CMake add the 
 ```bash
 /usr/bin/c++    -std=gnu++14 -o CMakeFiles/example2.dir/example2.cxx.o -c /home/smithsg/projects/ideas/best-practices-seminar/slides/software-best-practices/intro-cmake-2020-08-07/example-2/example2.cxx
 ```
-## Example 3
+## Multiple source files and first look at CMake variables
 
 Multiple source files, showing use of a variable in CMake.
+
+Example is directory example-3.  Steps to build are same as previous examples.
+
 
 ```cmake
 # Adds an example to the project, multiple source files using a
@@ -228,4 +240,67 @@ Multiple source files, showing use of a variable in CMake.
 set(SRC example3.cxx unique-code.cxx)
 add_executable(example3 ${SRC})
 ```
+
+
+## MPI example using an IMPORTED target
+
+There are several ways to create dependencies on libraries/packages in CMake.
+
+- A Package as an IMPORTED target
+  - This is the best way
+  - Newer feature (requires CMake 3.9)
+  - Not all packages support this feature 
+  - find_package()
+  - IMPORTED target is added to target_link_libraries
+- A Package as imported variables
+  - The older style
+  - find_package()
+  - Variables are imported like
+    - HYPRE_FOUND
+    - HYPRE_INCLUDE_DIR
+	- HYPRE_LIBRARIES
+  - Not all package mantainers supply the same variables and quality of the finders varies
+    - Conventions are not always followed and were not very well documented
+- Manually specify directories, libraries
+  - Not as flexible, have to be careful if you want platform independence.
+  - Can directly specify 
+    - include paths
+	- libraries
+	- etc
+	
+
+CMake packages are documented here:
+https://cmake.org/cmake/help/latest/manual/cmake-packages.7.html#id8
+
+Packages can 
+
+	
+Example is directory example-4.  Steps to build are same as previous examples.
+
+This example will require MPI to be installed and use an MPI which is
+supported by the CMake supplied MPI scripts for finding MPI.  So far I
+have found this be portable across all systems tested (MacOS, Linux,
+various HPC centers).
+    
+## Zlib example using package with variables
+
+```cmake
+  find_package(ZLIB)
+```
+  
+##
+
+
+**********************************
+
+Should show ccmake and setting variables
+Should show list of built-in variables
+
+    https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
+	
+Linking with Hypre, PetSC.
+
+Old way and new way.
+
+## Example 4
 
