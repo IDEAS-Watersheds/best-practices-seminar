@@ -11,3 +11,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Adds an example to the project, single source file
 add_executable(example2 example2.cxx)
+
+# Note the current 'modern' way to specify compiler is using an INTERFACE target
+# and not set the CMake compiler variables directly:
+# target_compile_features(example2 PRIVATE cxx_std_14)
+
+
+
+

@@ -69,7 +69,12 @@ Kitware also offers CMake classes.
 https://cmake.org/documentation/
 
 #### Introductory Tutorial
+
 https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+
+#### Modern CMake by Henry Schreiner and others
+
+https://cliutils.gitlab.io/modern-cmake/
 
 #### CMake Community Wiki
 
@@ -424,4 +429,8 @@ ccmake ..
 
 GUI's also exist for Windows (MacOS?).
 
+
+## Example with a library and application
+
+The example8 directory has an example with a main application and a library.
 
