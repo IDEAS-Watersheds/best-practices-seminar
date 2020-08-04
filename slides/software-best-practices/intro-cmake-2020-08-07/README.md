@@ -1,4 +1,4 @@
-# IDEAS Best Practices Debugging with DDT Tutorial
+# Ideas Best Practices Debugging with DDT Tutorial
 
 The goal of this tutorial is to show the basics of CMake.
 
@@ -9,7 +9,7 @@ CMake is a large system so only touching the surface here.  The focus
 is on setting up a first CMake project with a few simple extensions.
 
 ## What is CMake?
-nn
+
 According to the developers of CMake (Cross-platform Makefile Generator) :
 
 *CMake is a cross-platform free and open-source software tool for
@@ -52,7 +52,7 @@ What makes CMake hard? Make cross platform builder is hard.
   - Lots of 'special sauce'
     - Compiling MPI applications with 'mpicc'
   - Cross compiling
-- CMake has it's own launguage
+- CMake has it's own language
 
 CMake uses a DSL language for specifying what is to be configured and how.
 
@@ -60,7 +60,7 @@ CMake uses a DSL language for specifying what is to be configured and how.
 
 ### Kitware documentation
 
-Kitware, the creators of CMake, have a good online colletion of documentation and tutorials
+Kitware, the creators of CMake, have a good online collection of documentation and tutorials
 
 Kitware also offers CMake classes.
 
@@ -141,7 +141,7 @@ add_executable(example1 example1.cxx)
 #### Creating a UNIX Makefile
 
 You setup a build directory for running CMake, this keeps the
-temporary build files, object files, executables seperated from the
+temporary build files, object files, executables separated from the
 source code.  Directory is conventionally called 'build' and is
 normally created at the root of the source tree or parallel to it.
 
@@ -186,9 +186,9 @@ And execute the example built:
 
 ## Example Adding Setting Compiler Flag
 
-A common portablity problem is platforms/compilers use different
+A common portability problem is platforms/compilers use different
 options/flags.  CMake can help specify these in a platform/compiler
-indepent way.  This assumes that your compiler is support by CMake but
+independent way.  This assumes that your compiler is support by CMake but
 most are (GNU, Intel, Cray, XLC).
 
 Example is supplied in example-2 directory.
@@ -266,7 +266,7 @@ There are several ways to create dependencies on libraries/packages in CMake.
     - HYPRE_FOUND
     - HYPRE_INCLUDE_DIR
 	- HYPRE_LIBRARIES
-  - Not all package mantainers supply the same variables and quality of the finders varies
+  - Not all package maintainers supply the same variables and quality of the finders varies
     - Conventions are not always followed and were not very well documented
 - Manually specify directories, libraries
   - Not as flexible, have to be careful if you want platform independence.
@@ -287,7 +287,7 @@ various HPC centers and several implementations of MPI (OpenMPI, MVAPICH).
 
 
 Many libraries have scripts supplied by CMake to determine what include paths
-and libraries need to be included for compliation using
+and libraries need to be included for compilation using
 find_package.  Here we find MPI, since this is an MPI application it
 is marked as required.
 
@@ -360,7 +360,7 @@ The config.h.in template file has a place-holder for the EXAMPLE_HAVE_ZLIB
 
 The generated config.h file is put in the binary directory by default
 so we need to put the directory on the include path for the
-compiliation.
+compilation.
 
 ```cmake
 target_include_directories(example6 PUBLIC "${PROJECT_BINARY_DIR}")
@@ -368,7 +368,7 @@ target_include_directories(example6 PUBLIC "${PROJECT_BINARY_DIR}")
 
 CMake has a number of pre-defined variables for the source, binary,
 install directories.  There are also many variables that give you
-information about the compilation envirnment and let you control the
+information about the compilation environment and let you control the
 compilation.
 
 https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
