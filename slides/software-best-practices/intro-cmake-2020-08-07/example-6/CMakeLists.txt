@@ -21,9 +21,9 @@ add_executable(example6 ${SRC})
 configure_file(config.h.in config.h)
 
 # The generated config.h file is put in the binary directory by
-# default so we need to put it on the include path for the
+# default so we need to put the directory on the include path for the
 # compiliation.
-target_include_directories(example6 PUBLIC "${PROJECT_BINARY_DIR}")
+target_include_directories(example6 PUBLIC "${PROJECT_BINARY_DIR}" "${ZLIB_INCLUDE_DIRS}")
 
 # ZLIB libraries are added to link; ZLIB_LIBRARIES variable is set by
 # find_package(ZLIB)

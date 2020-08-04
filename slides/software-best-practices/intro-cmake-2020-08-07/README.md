@@ -272,9 +272,6 @@ There are several ways to create dependencies on libraries/packages in CMake.
 CMake packages are documented here:
 https://cmake.org/cmake/help/latest/manual/cmake-packages.7.html#id8
 
-Packages can 
-
-	
 Example is directory example-4.  Steps to build are same as previous examples.
 
 This example will require MPI to be installed and use an MPI which is
@@ -286,21 +283,100 @@ various HPC centers).
 
 ```cmake
   find_package(ZLIB)
+
+  target_link_libraries(example5 PRIVATE ${ZLIB_LIBRARIES} )
 ```
+## Optionally compile with Zlib
+
+For cases when you optionally wish to use a library you can do standard C/C++ compile
+time guards.
+
+First we use the ZLIB_FOUND variable which is set by the find_package to create a 
+new CMake variable for our project.
+
+```cmake
+find_package(ZLIB)
+
+if (${ZLIB_FOUND})
+  set(EXAMPLE_HAVE_ZLIB "yes")
+endif (${ZLIB_FOUND})
+```
+
+We want to get EXAMPLE_HAVE_LIB visible to the compiler, could do a
+command line flag but putting configuration state into a file is
+better.
+
+Process the template config.h.in file to config.h; replaces symbols
+in the .in file based on CMake variables.  Here EXAMPLE_HAVE_ZLIB
+will be set in config.h when ZLIB is found.
+
+```cmake
+configure_file(config.h.in config.h)
+```
+
+The generated config.h file is put in the binary directory by default
+so we need to put the directory on the include path for the
+compiliation.
+
+```cmake
+target_include_directories(example6 PUBLIC "${PROJECT_BINARY_DIR}")
+```
+
+CMake has a number of pre-defined variables for the source, binary,
+install directories.  There are also many variables that give you
+information about the compilation envirnment and let you control the
+compilation.
+
+https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
   
-##
+## User configuration flags example
+
+You can create your own flags to enable a user to set compile options.
+Say we have an optional flux capacitor feature.  In the CMakeLists.txt
+file we can create a new variable that will be put in the
+configuration cache.
+
+The value (False) is the default value which user can override.  Type
+is just a boolean, CMake treats 0/1, true/false, on/off, yes/no all as boolean
+values.  Comment description is supplied and can be seen in the CMake GUI.
+
+```cmake
+set (EXAMPLE_HAVE_FLUX_CAPACITOR False CACHE BOOL "Flux capacitor option enabled")
+```
+
+In our config.h.in file we use #cmakedefine so symbol will be replaced
+
+```c
+#cmakedefine EXAMPLE_HAVE_FLUX_CAPACITOR
+```
+
+Example is directory example-7. 
+
+Since we now have a user configuration flag for the build we need need to set it.
+
+With no options:
+
+```bash
+cmake ..
+```
+
+we will get the default (flux capacitor turned off).
 
 
-**********************************
+You can set CMake variables from the command line using the -D option:
 
-Should show ccmake and setting variables
-Should show list of built-in variables
+```bash
+cmake -DEXAMPLE_HAVE_FLUX_CAPACITOR=on ..
+```
 
-    https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
-	
-Linking with Hypre, PetSC.
+This will turn on the flux capacitor.
 
-Old way and new way.
+You can also configure with the 'ccmake' command to get a simple GUI:
 
-## Example 4
+```bash
+ccmake ..
+```
+
+GUI's also exist for Windows (MacOS?).
+
 
