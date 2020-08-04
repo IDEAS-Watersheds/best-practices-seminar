@@ -5,24 +5,23 @@ The goal of this tutorial is to show the basics of CMake.
 This README is not a stand-alone text, it is intended to go along with
 the Webinar tutorial.
 
-This is not a complete tutorial due to time limits.  The focus is on
-setting up a first CMake project and covering some of the basic
-features.
+CMake is a large system so only touching the surface here.  The focus
+is on setting up a first CMake project with a few simple extensions.
 
 ## What is CMake?
-
+nn
 According to the developers of CMake (Cross-platform Makefile Generator) :
 
 *CMake is a cross-platform free and open-source software tool for
 managing the build process of software using a compiler-independent
 method.*
 
-Key thing to notice is CMake does not build software, CMake manages
+A key thing to note is CMake does not build software, CMake manages
 the setup of other tools to do the actual compilation steps.
 Supported 'generators' are Unix Make (and some other makes), Visual
 Studio, XCode, Eclipse, and CodeBlocks.
 
-CMake :
+Some key things CMake does:
 
 - Are utilities installed
   - Is compiler installed and does it work?
@@ -32,6 +31,7 @@ CMake :
   - What libraries are needed?
 - Determines compiler options
   - What is the C++ 14 flag?
+  - Debug/Release builds
 
 If you have used the GNU Autoconf utilities, CMake does many of the same tasks.
 
@@ -54,6 +54,8 @@ What makes CMake hard? Make cross platform builder is hard.
   - Cross compiling
 - CMake has it's own launguage
 
+CMake uses a DSL language for specifying what is to be configured and how.
+
 ## Additional Tutorials/Documentation
 
 ### Kitware documentation
@@ -75,17 +77,16 @@ Useful guides to specific CMake features.
 
 https://gitlab.kitware.com/cmake/community/-/wikis/home
 
-### Mastering CMake by Ken Martin and Bill Hoffman
+### *Mastering CMake* by Ken Martin and Bill Hoffman
 
 I have mixed feelings about this book.  The first chapters can be
 useful for getting a general introduction but more than half the book
 is reference content.  Easier and more up-to-date to just look at the
 online reference material.  Also needs an update, covers CMake 3.1.
 
-### CMake Cookbook by Radovan Bast and Roberto Di Remigio
+### *CMake Cookbook* by Radovan Bast and Roberto Di Remigio
 
 Has anyone in group read this?
-
 
 ## Installing CMake
 
@@ -98,7 +99,8 @@ https://cmake.org/download/
 ParFlow requires a CMake version newer than what some systems provide,
 we have had good success downloading the binaries provided by KitWare.
 
-Here is example from our Dockerfile for ParFlow, for automating the download:
+Here is example from our Dockerfile for ParFlow and we have used the same method for
+installing on other platforms when needed.
 
 ```bash
 CMAKE_DIR=/home/parflow/cmake-3.14.5-Linux-x86_64
@@ -110,10 +112,14 @@ tar -xvf cmake-3.14.5-Linux-x86_64.tar.gz
 
 ## Downloading the tutorial examples
 
+All of the tutorials are in the IDEAS-Watersheds repository.
+
+```bash
 git clone https://github.com/IDEAS-Watersheds/best-practices-seminar.git
 cd best-practices-seminar/slides/software-best-practices/intro-cmake-2020-08-07
+```
 
-## Single file example
+## Single File Example
 
 The example-1 directory has a very basic CMake example.   Single source file (example1.cxx) and no dependencies.
 
@@ -165,7 +171,8 @@ You then build using the generated Makefile:
 make
 ```
 
-CMake can be used to invoke 'make' for more portability (e.g. using something other than 'make' to build).
+CMake can be used to invoke 'make' for more portability (e.g. when
+using something other than 'make' to build).
 
 ```bash
 cmake -- build .
@@ -177,7 +184,7 @@ And execute the example built:
 ./example1
 ```
 
-## Example setting compiler flag
+## Example Adding Setting Compiler Flag
 
 A common portablity problem is platforms/compilers use different
 options/flags.  CMake can help specify these in a platform/compiler
@@ -222,17 +229,18 @@ By default CMake hides what the build is doing.  The 'VERBOSE=1' flag will show 
 make VERBOSE=1
 ```
 
-On my system one of this lines compiles the code, here we can see CMake add the '-std=gnu++14' argument to use C++14 as requested.
+On my system one of the verbose output lines shows the compile step.
+Here we can see CMake add the '-std=gnu++14' argument to use C++14 as
+requested.
 
 ```bash
 /usr/bin/c++    -std=gnu++14 -o CMakeFiles/example2.dir/example2.cxx.o -c /home/smithsg/projects/ideas/best-practices-seminar/slides/software-best-practices/intro-cmake-2020-08-07/example-2/example2.cxx
 ```
-## Multiple source files and first look at CMake variables
+## Multiple Source Files and First Look At CMake Variables
 
 Multiple source files, showing use of a variable in CMake.
 
-Example is directory example-3.  Steps to build are same as previous examples.
-
+This example is in directory example-3.  Steps to build are same as previous examples.
 
 ```cmake
 # Adds an example to the project, multiple source files using a
@@ -241,8 +249,7 @@ set(SRC example3.cxx unique-code.cxx)
 add_executable(example3 ${SRC})
 ```
 
-
-## MPI example using an IMPORTED target
+## MPI Example Using An IMPORTED Target
 
 There are several ways to create dependencies on libraries/packages in CMake.
 
@@ -267,32 +274,63 @@ There are several ways to create dependencies on libraries/packages in CMake.
     - include paths
 	- libraries
 	- etc
-	
 
 CMake packages are documented here:
-https://cmake.org/cmake/help/latest/manual/cmake-packages.7.html#id8
+https://cmake.org/cmake/help/latest/manual/cmake-packages.7.html
 
-Example is directory example-4.  Steps to build are same as previous examples.
+This example is in directory example-4.  Steps to build are same as previous examples.
 
 This example will require MPI to be installed and use an MPI which is
 supported by the CMake supplied MPI scripts for finding MPI.  So far I
-have found this be portable across all systems tested (MacOS, Linux,
-various HPC centers).
+have found this be portable across all systems tested.  Have built on MacOS, Linux,
+various HPC centers and several implementations of MPI (OpenMPI, MVAPICH).
+
+
+Many libraries have scripts supplied by CMake to determine what include paths
+and libraries need to be included for compliation using
+find_package.  Here we find MPI, since this is an MPI application it
+is marked as required.
+
+find_package is used to find packages.  You need to supply the package
+name.  "REQUIRED" can be used to make it a required package; CMake
+will stop if package isn't found.
+
+```cmake
+find_package(MPI REQUIRED)
+```
+
+MPI dependency is add as an IMPORTED target.
+
+```cmake
+target_link_libraries(example4 PRIVATE MPI::MPI_C)
+```
     
-## Zlib example using package with variables
+## Zlib Example Using Package With Variables
+
+This is the old style, will likely see this if you look at CMake
+examples and other projects.  For example ParFlow is still using this
+older method.
+
+Rather than libraries and paths being added abstractly, the
+find_package sets variables with information needed.  You then add the
+paths/libraries as needed.
 
 ```cmake
   find_package(ZLIB)
 
+  target_include_directories(example5 PUBLIC "${ZLIB_INCLUDE_DIRS}")
+
   target_link_libraries(example5 PRIVATE ${ZLIB_LIBRARIES} )
 ```
-## Optionally compile with Zlib
 
-For cases when you optionally wish to use a library you can do standard C/C++ compile
-time guards.
+This example is in directory example-5.  Steps to build are same as previous examples.
 
-First we use the ZLIB_FOUND variable which is set by the find_package to create a 
-new CMake variable for our project.
+## Optionally Compile With Zlib
+
+For cases when you optionally wish to use a library you can do
+standard C/C++ compile guards using symbols defined by CMake.  First
+we use the ZLIB_FOUND variable which is set by the find_package to
+create a new CMake variable for our project.
 
 ```cmake
 find_package(ZLIB)
@@ -306,12 +344,18 @@ We want to get EXAMPLE_HAVE_LIB visible to the compiler, could do a
 command line flag but putting configuration state into a file is
 better.
 
-Process the template config.h.in file to config.h; replaces symbols
+This line will process the template config.h.in file to config.h; replaces symbols
 in the .in file based on CMake variables.  Here EXAMPLE_HAVE_ZLIB
 will be set in config.h when ZLIB is found.
 
 ```cmake
 configure_file(config.h.in config.h)
+```
+
+The config.h.in template file has a place-holder for the EXAMPLE_HAVE_ZLIB
+
+```c
+#cmakedefine EXAMPLE_HAVE_ZLIB
 ```
 
 The generated config.h file is put in the binary directory by default
@@ -328,6 +372,8 @@ information about the compilation envirnment and let you control the
 compilation.
 
 https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
+
+This example is in directory example-6.  Steps to build are same as previous examples.
   
 ## User configuration flags example
 
@@ -350,9 +396,8 @@ In our config.h.in file we use #cmakedefine so symbol will be replaced
 #cmakedefine EXAMPLE_HAVE_FLUX_CAPACITOR
 ```
 
-Example is directory example-7. 
-
-Since we now have a user configuration flag for the build we need need to set it.
+Example is directory example-7. Since we now have a user configuration
+flag for the build we need need to set it.
 
 With no options:
 
