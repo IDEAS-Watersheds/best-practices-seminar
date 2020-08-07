@@ -1,4 +1,4 @@
-# Ideas Best Practices Debugging with DDT Tutorial
+# Ideas Sofware Best Practices :  Introduction to CMake
 
 The goal of this tutorial is to show the basics of CMake.
 
