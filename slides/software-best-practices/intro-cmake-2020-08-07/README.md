@@ -1,4 +1,4 @@
-# Ideas Best Practices Debugging with DDT Tutorial
+# IDEAS Sofware Best Practices :  Introduction to CMake
 
 The goal of this tutorial is to show the basics of CMake.
 
@@ -43,18 +43,20 @@ CMake ecosystems also includes packages for:
 - Creating software installers
   - CPack
 
+What makes CMake hard? Making software portable accross a wide range
+of platforms is hard.  Just when you think you have it portable you
+will get a bug report from a user.
 
-What makes CMake hard? Make cross platform builder is hard.
-
-- There is no standard for how Unix is setup, there are many 'standards'
+- No complete standard
+  - There is no standard for how Unix is setup
+  - And then there is Windows....
 - Multiple versions of utilities, libraries.
 - HPC systems are frequently slightly odd
   - Lots of 'special sauce'
     - Compiling MPI applications with 'mpicc'
   - Cross compiling
 - CMake has it's own language
-
-CMake uses a DSL language for specifying what is to be configured and how.
+  - CMake uses a DSL language for specifying what is to be configured and how.
 
 ## Additional Tutorials/Documentation
 
@@ -101,11 +103,11 @@ https://cmake.org/download/
 
 ### CMake binaries
 
-ParFlow requires a CMake version newer than what some systems provide,
-we have had good success downloading the binaries provided by KitWare.
+May need a newer version than system supplies.  On ParFlow we have had
+good success downloading the binaries provided by KitWare.
 
-Here is example from our Dockerfile for ParFlow and we have used the same method for
-installing on other platforms when needed.
+Here is example from our Dockerfile for ParFlow and we have used the
+same method for installing on other platforms when needed.
 
 ```bash
 CMAKE_DIR=/home/parflow/cmake-3.14.5-Linux-x86_64
@@ -114,7 +116,6 @@ cd /home/parflow
 wget -nv --no-check-certificate http://cmake.org/files/v3.14/cmake-3.14.5-Linux-x86_64.tar.gz
 tar -xvf cmake-3.14.5-Linux-x86_64.tar.gz
 ```
-
 ## Downloading the tutorial examples
 
 All of the tutorials are in the IDEAS-Watersheds repository.
@@ -176,6 +177,12 @@ You then build using the generated Makefile:
 make
 ```
 
+To see list of available make build targets:
+
+```bash
+make help
+``` 
+
 CMake can be used to invoke 'make' for more portability (e.g. when
 using something other than 'make' to build).
 
@@ -188,6 +195,53 @@ And execute the example built:
 ```bash
 ./example1
 ```
+## Setting CMake Variables
+
+CMake uses variables to configure/store options for the build,
+variables are used for build configure items like path to install,
+compiler options, paths to libraries etc.
+
+Variables are split into two groups non-advanced (unadvanced) and
+advanced.  This is used in CMake GUI applications, user sees
+non-advanced only unless they click an 'advanced' button.
+
+Two common variable to set when building are the installation prefix and 
+the build type.  Default build type is normally release but if you want
+extra debugging information Debug is useful.
+
+```bash
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=<directory> ..
+```
+
+To see list of non-advanced variables:
+
+```bash
+cmake -L
+```
+
+To see list of all variables:
+
+```bash
+cmake -LA
+```
+
+You can also configure with the 'ccmake' command to get a simple terminal based GUI:
+
+```bash
+ccmake ..
+```
+
+The 'cmake-gui' command is a full GUI application:
+
+```bash
+cmake-gui ..
+```
+
+Guide on how to use CMake:
+
+https://cmake.org/cmake/help/latest/guide/user-interaction/index.html
+
+A GUI also exist for Windows; MacOS supports cmake-gui.
 
 ## Example Adding Setting Compiler Flag
 
@@ -292,12 +346,14 @@ There are several ways to create dependencies on libraries/packages in CMake.
 CMake packages are documented here:
 https://cmake.org/cmake/help/latest/manual/cmake-packages.7.html
 
-This example is in directory example-4.  Steps to build are same as previous examples.
+This example is in directory example-4.  Steps to build are same as
+previous examples.
 
 This example will require MPI to be installed and use an MPI which is
 supported by the CMake supplied MPI scripts for finding MPI.  So far I
-have found this be portable across all systems tested.  Have built on MacOS, Linux,
-various HPC centers and several implementations of MPI (OpenMPI, MVAPICH).
+have found this be portable across all systems tested.  Have built on
+MacOS, Linux, various HPC centers and several implementations of MPI
+(OpenMPI, MVAPICH).
 
 For MPI, highly recommend to use CMake version 3.10 or greater since
 support was improved in that release.
@@ -339,9 +395,13 @@ paths/libraries as needed.
   target_link_libraries(example5 PRIVATE ${ZLIB_LIBRARIES} )
 ```
 
-This example is in directory example-5.  Steps to build are same as previous examples.
+target_link_libraries is used for both IMPORTED targets like
+MPI::MPI_C and adding .so/.a dependencies.
 
-## Optionally Compile With Zlib
+This example is in directory example-5.  Steps to build are same as
+previous examples.
+
+## Optionally Compile With Zlib Example
 
 For cases when you optionally wish to use a library you can do
 standard C/C++ compile guards using symbols defined by CMake.  First
@@ -391,7 +451,7 @@ https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
 
 This example is in directory example-6.  Steps to build are same as previous examples.
   
-## User configuration flags example
+## User Configuration Flags example
 
 You can create your own flags to enable a user to set compile options.
 Say we have an optional flux capacitor feature.  In the CMakeLists.txt
@@ -432,24 +492,15 @@ cmake -DEXAMPLE_HAVE_FLUX_CAPACITOR=on ..
 
 This will turn on the flux capacitor.
 
-Two common variable to set when building are the installation prefix and 
-the build type.  Default build type is normally release but if you want
-extra debugging information Debug is useful.
-
-```bash
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=<directory> ..
-```
-
-You can also configure with the 'ccmake' command to get a simple GUI:
-
-```bash
-ccmake ..
-```
-
-GUI's also exist for Windows (MacOS?).
-
-
 ## Example with a library and application
 
 The example8 directory has an example with a main application and a library.
+
+The 'library' directory has a library example ('lib8' is name of our
+library), the 'main' directory has an application that links to the
+library.
+
+The main CMakeLists.txt file at the root of the project includes the
+other two directories.  Main CMakeLists.txt file also sets up a flag
+to enable the user to select if they want the library included or not.
 
