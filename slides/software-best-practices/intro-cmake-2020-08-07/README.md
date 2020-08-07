@@ -1,4 +1,4 @@
-# Ideas Sofware Best Practices :  Introduction to CMake
+# IDEAS Sofware Best Practices :  Introduction to CMake
 
 The goal of this tutorial is to show the basics of CMake.
 
