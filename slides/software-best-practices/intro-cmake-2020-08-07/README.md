@@ -241,6 +241,15 @@ requested.
 ```bash
 /usr/bin/c++    -std=gnu++14 -o CMakeFiles/example2.dir/example2.cxx.o -c /home/smithsg/projects/ideas/best-practices-seminar/slides/software-best-practices/intro-cmake-2020-08-07/example-2/example2.cxx
 ```
+
+For problems with CMake there is a trace option to print what CMake is doing
+
+```bash
+cmake --trace ..
+```
+
+This generates a stupendous amount of output.   Can limit to a single CMake file with --trace-source="filename".
+
 ## Multiple Source Files and First Look At CMake Variables
 
 Multiple source files, showing use of a variable in CMake.
@@ -249,7 +258,7 @@ This example is in directory example-3.  Steps to build are same as previous exa
 
 ```cmake
 # Adds an example to the project, multiple source files using a
-# variable to store names of the source files
+# local variable to store names of the source files
 set(SRC example3.cxx unique-code.cxx)
 add_executable(example3 ${SRC})
 ```
@@ -290,6 +299,8 @@ supported by the CMake supplied MPI scripts for finding MPI.  So far I
 have found this be portable across all systems tested.  Have built on MacOS, Linux,
 various HPC centers and several implementations of MPI (OpenMPI, MVAPICH).
 
+For MPI, highly recommend to use CMake version 3.10 or greater since
+support was improved in that release.
 
 Many libraries have scripts supplied by CMake to determine what include paths
 and libraries need to be included for compilation using
@@ -309,7 +320,7 @@ MPI dependency is add as an IMPORTED target.
 ```cmake
 target_link_libraries(example4 PRIVATE MPI::MPI_C)
 ```
-    
+
 ## Zlib Example Using Package With Variables
 
 This is the old style, will likely see this if you look at CMake
@@ -420,6 +431,14 @@ cmake -DEXAMPLE_HAVE_FLUX_CAPACITOR=on ..
 ```
 
 This will turn on the flux capacitor.
+
+Two common variable to set when building are the installation prefix and 
+the build type.  Default build type is normally release but if you want
+extra debugging information Debug is useful.
+
+```bash
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=<directory> ..
+```
 
 You can also configure with the 'ccmake' command to get a simple GUI:
 
