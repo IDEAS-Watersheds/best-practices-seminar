@@ -43,18 +43,20 @@ CMake ecosystems also includes packages for:
 - Creating software installers
   - CPack
 
+What makes CMake hard? Making software portable accross a wide range
+of platforms is hard.  Just when you think you have it portable you
+will get a bug report from a user.
 
-What makes CMake hard? Make cross platform builder is hard.
-
-- There is no standard for how Unix is setup, there are many 'standards'
+- No complete standard
+  - There is no standard for how Unix is setup
+  - And then there is Windows....
 - Multiple versions of utilities, libraries.
 - HPC systems are frequently slightly odd
   - Lots of 'special sauce'
     - Compiling MPI applications with 'mpicc'
   - Cross compiling
 - CMake has it's own language
-
-CMake uses a DSL language for specifying what is to be configured and how.
+  - CMake uses a DSL language for specifying what is to be configured and how.
 
 ## Additional Tutorials/Documentation
 
@@ -101,11 +103,11 @@ https://cmake.org/download/
 
 ### CMake binaries
 
-ParFlow requires a CMake version newer than what some systems provide,
-we have had good success downloading the binaries provided by KitWare.
+May need a newer version than system supplies.  On ParFlow we have had
+good success downloading the binaries provided by KitWare.
 
-Here is example from our Dockerfile for ParFlow and we have used the same method for
-installing on other platforms when needed.
+Here is example from our Dockerfile for ParFlow and we have used the
+same method for installing on other platforms when needed.
 
 ```bash
 CMAKE_DIR=/home/parflow/cmake-3.14.5-Linux-x86_64
@@ -114,7 +116,6 @@ cd /home/parflow
 wget -nv --no-check-certificate http://cmake.org/files/v3.14/cmake-3.14.5-Linux-x86_64.tar.gz
 tar -xvf cmake-3.14.5-Linux-x86_64.tar.gz
 ```
-
 ## Downloading the tutorial examples
 
 All of the tutorials are in the IDEAS-Watersheds repository.
@@ -347,12 +348,14 @@ There are several ways to create dependencies on libraries/packages in CMake.
 CMake packages are documented here:
 https://cmake.org/cmake/help/latest/manual/cmake-packages.7.html
 
-This example is in directory example-4.  Steps to build are same as previous examples.
+This example is in directory example-4.  Steps to build are same as
+previous examples.
 
 This example will require MPI to be installed and use an MPI which is
 supported by the CMake supplied MPI scripts for finding MPI.  So far I
-have found this be portable across all systems tested.  Have built on MacOS, Linux,
-various HPC centers and several implementations of MPI (OpenMPI, MVAPICH).
+have found this be portable across all systems tested.  Have built on
+MacOS, Linux, various HPC centers and several implementations of MPI
+(OpenMPI, MVAPICH).
 
 For MPI, highly recommend to use CMake version 3.10 or greater since
 support was improved in that release.
@@ -394,7 +397,11 @@ paths/libraries as needed.
   target_link_libraries(example5 PRIVATE ${ZLIB_LIBRARIES} )
 ```
 
-This example is in directory example-5.  Steps to build are same as previous examples.
+target_link_libraries is used for both IMPORTED targets like
+MPI::MPI_C and adding .so/.a dependencies.
+
+This example is in directory example-5.  Steps to build are same as
+previous examples.
 
 ## Optionally Compile With Zlib
 
