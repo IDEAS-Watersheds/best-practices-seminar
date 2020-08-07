@@ -176,18 +176,73 @@ You then build using the generated Makefile:
 make
 ```
 
+To see list of available make build targets:
+
+```bash
+make help
+``` 
 CMake can be used to invoke 'make' for more portability (e.g. when
 using something other than 'make' to build).
 
 ```bash
 cmake -- build .
 ```
-
 And execute the example built:
 
 ```bash
 ./example1
 ```
+## Setting CMake Variables
+
+CMake uses variables to configure/store options for the build,
+variables are used for build configure items like path to install,
+compiler options, paths to libraries etc.
+
+Variables are split into two groups non-advanced (unadvanced) and
+advanced.  This is used in CMake GUI applications, user sees
+non-advanced only unless they click an 'advanced' button.
+
+Two common variable to set when building are the installation prefix and 
+the build type.  Default build type is normally release but if you want
+extra debugging information Debug is useful.
+
+```bash
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=<directory> ..
+```
+
+To see list of non-advanced variables:
+
+```bash
+cmake -L
+```
+
+To see list of all variables:
+
+```bash
+cmake -LA
+```
+
+You can also configure with the 'ccmake' command to get a simple terminal based GUI:
+
+```bash
+ccmake ..
+```
+
+The 'cmake-gui' command is a full GUI application:
+
+```bash
+cmake-gui ..
+```
+
+Guide on how to use CMake:
+
+https://cmake.org/cmake/help/latest/guide/user-interaction/index.html
+
+A GUI also exist for Windows; MacOS supports cmake-gui.
+
+## Example with a library and application
+
+The example8 directory has an example with a main application and a library.
 
 ## Example Adding Setting Compiler Flag
 
@@ -432,24 +487,4 @@ cmake -DEXAMPLE_HAVE_FLUX_CAPACITOR=on ..
 
 This will turn on the flux capacitor.
 
-Two common variable to set when building are the installation prefix and 
-the build type.  Default build type is normally release but if you want
-extra debugging information Debug is useful.
-
-```bash
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=<directory> ..
-```
-
-You can also configure with the 'ccmake' command to get a simple GUI:
-
-```bash
-ccmake ..
-```
-
-GUI's also exist for Windows (MacOS?).
-
-
-## Example with a library and application
-
-The example8 directory has an example with a main application and a library.
 
