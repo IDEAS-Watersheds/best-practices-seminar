@@ -241,10 +241,6 @@ https://cmake.org/cmake/help/latest/guide/user-interaction/index.html
 
 A GUI also exist for Windows; MacOS supports cmake-gui.
 
-## Example with a library and application
-
-The example8 directory has an example with a main application and a library.
-
 ## Example Adding Setting Compiler Flag
 
 A common portability problem is platforms/compilers use different
@@ -403,7 +399,7 @@ MPI::MPI_C and adding .so/.a dependencies.
 This example is in directory example-5.  Steps to build are same as
 previous examples.
 
-## Optionally Compile With Zlib
+## Optionally Compile With Zlib Example
 
 For cases when you optionally wish to use a library you can do
 standard C/C++ compile guards using symbols defined by CMake.  First
@@ -453,7 +449,7 @@ https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html
 
 This example is in directory example-6.  Steps to build are same as previous examples.
   
-## User configuration flags example
+## User Configuration Flags example
 
 You can create your own flags to enable a user to set compile options.
 Say we have an optional flux capacitor feature.  In the CMakeLists.txt
@@ -493,5 +489,20 @@ cmake -DEXAMPLE_HAVE_FLUX_CAPACITOR=on ..
 ```
 
 This will turn on the flux capacitor.
+
+
+## Example with a library and application
+
+The example8 directory has an example with a main application and a library.
+
+The 'library' directory has a library example ('lib8' is name of our
+library), the 'main' directory has an application that links to the
+library.
+
+The main CMakeLists.txt file at the root of the project includes the
+other two directories.  Main CMakeLists.txt file also sets up a flag
+to enable the user to select if they want the library included or not.
+
+
 
 
