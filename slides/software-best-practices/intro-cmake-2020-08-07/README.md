@@ -182,12 +182,14 @@ To see list of available make build targets:
 ```bash
 make help
 ``` 
+
 CMake can be used to invoke 'make' for more portability (e.g. when
 using something other than 'make' to build).
 
 ```bash
 cmake -- build .
 ```
+
 And execute the example built:
 
 ```bash
@@ -490,7 +492,6 @@ cmake -DEXAMPLE_HAVE_FLUX_CAPACITOR=on ..
 
 This will turn on the flux capacitor.
 
-
 ## Example with a library and application
 
 The example8 directory has an example with a main application and a library.
@@ -502,7 +503,4 @@ library.
 The main CMakeLists.txt file at the root of the project includes the
 other two directories.  Main CMakeLists.txt file also sets up a flag
 to enable the user to select if they want the library included or not.
-
-
-
 
