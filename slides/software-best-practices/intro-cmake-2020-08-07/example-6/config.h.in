@@ -1,0 +1,2 @@
+
+#cmakedefine EXAMPLE_HAVE_ZLIB
