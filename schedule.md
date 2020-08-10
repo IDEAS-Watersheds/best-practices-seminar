@@ -14,9 +14,9 @@
 | July 29  | Ethan Coon (ORNL)           | [Watershed modeling fundamentals: setup, data inputs, ATS model specifics (mesh generation/workflow)](https://docs.google.com/document/d/1_4SLrUNZCsKa-oClMirxW57AU-KqYtWZarAyIwqDK9Y/edit#) - [SLIDES](https://drive.google.com/drive/folders/1rK609Bc5VMoGp3DOAbbu4-xF1uV2mGuS) - [RECORDING](https://drive.google.com/drive/folders/1h97YLcXA8QECS8zOVi2OxoVG4fTLlXue)
 | Aug 12   | Laura Condon, Jun Zhang (UA)   | Watershed modeling fundamentals: ParFlow specifics, CONUS topography datasets/processing
 | Aug 26   | Hoang Tran (CSM)           | Upper CO modeling
-| Sept 9   | Glenn Hammond (Sergi?)     | Reactive Transport Fundamentals
-| Sept 23  | Kate Maher, Pamela Weisenhorn  | SLAC Update, ANL Update
-| Oct 7    |
+| Sept 9   | Annual Meeting |
+| Sept 23  | Glenn Hammond (Sergi?)     | Reactive Transport Fundamentals
+| Oct 7    | Kate Maher, Pamela Weisenhorn  | SLAC Update, ANL Update
 | Oct 21   |
 | Nov 4    |
 | Nov 18   |
