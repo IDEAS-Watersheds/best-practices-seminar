@@ -13,9 +13,16 @@
 | July 15  |Ilhan Ozgen (LBNL)           |[Modeling integrated hydrology using the IDEAS-Watersheds software ecosystem](https://docs.google.com/document/d/1xYKTnJJI7VrqhxGVxakJZfksOPECR7qzX6X0zK7eSHM/edit#heading=h.gqi05zuawjqx)
 | July 29  | Ethan Coon (ORNL)           | [Watershed modeling fundamentals: setup, data inputs, ATS model specifics (mesh generation/workflow)](https://docs.google.com/document/d/1_4SLrUNZCsKa-oClMirxW57AU-KqYtWZarAyIwqDK9Y/edit#) - [SLIDES](https://drive.google.com/drive/folders/1rK609Bc5VMoGp3DOAbbu4-xF1uV2mGuS) - [RECORDING](https://drive.google.com/drive/folders/1h97YLcXA8QECS8zOVi2OxoVG4fTLlXue)
 | Aug 12   | Laura Condon, Jun Zhang (UA)   | Watershed modeling fundamentals: ParFlow specifics, CONUS topography datasets/processing
-| Aug 26   | Hoang Tran (CSM)           |
-| Sept 9   | ???                        |
-| Sept 23  | ???                        |
+| Aug 26   | Hoang Tran (CSM)           | Upper CO modeling
+| Sept 9   | Glenn Hammond (Sergi?)     | Reactive Transport Fundamentals
+| Sept 23  | Kate Maher, Pamela Weisenhorn  | SLAC Update, ANL Update
+| Oct 7    |
+| Oct 21   |
+| Nov 4    |
+| Nov 18   |
+| Dec 2    |
+| Dec 16   |
+
 
 # Software Best Practices Schedule
 
@@ -31,10 +38,15 @@
 |July 10, 2020 |Pin Shuai, Jiang Peishi | [Jupyter Notebooks Introduction - Setting up a basic workflow](https://docs.google.com/document/d/1rxZgGx3lPpPGN4D3JgU9O-b4b_dsmbneYzVFRBsYS5c/edit#heading=h.rx16jl6unwc4) |
 |July 24, 2020 |Pin Shuai, Jiang Peishi | [Jupyter Notebooks - JupyterLab Demo on NERSC, git for notebook tracking, and discussions on workflows](https://docs.google.com/document/d/1TR51Mh9vpWwJ6juZ1-e0N9bwOIcprdyoouizhnPO84w/edit#heading=h.y0woippppf3r) |
 |Aug 7, 2020 |Steve Smith | [Introduction to CMake](https://docs.google.com/document/d/1W5cEwfO2OT4OGWTVkt4JIF8JjgyS3tHhxdd8rGBBIa4/edit) |
-|Aug 21, 2020 |
+|Aug 21, 2020 |Steve Smith | CMake - part II 
 |Sept 4, 2020 |
 |Sept 18, 2020 |
 |Oct 2, 2020 |
+|Oct 16, 2020 |
+|Oct 30, 2020 |
+|Nov 13, 2020 |
+|Dec 11, 2020 |
+
 
 
 
