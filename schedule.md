@@ -12,7 +12,7 @@
 | July 1   |Kewei Chen (PNNL), Tristan Babey (SLAC) | [Using a column experiment as an example for benchmarking reactive transport simulators](https://docs.google.com/document/d/1lJ0zAHwIxbFIm7UDhe2UVmNJby2qG0ps-cVCN3zKXp8/edit#) |
 | July 15  |Ilhan Ozgen (LBNL)           |[Modeling integrated hydrology using the IDEAS-Watersheds software ecosystem](https://docs.google.com/document/d/1xYKTnJJI7VrqhxGVxakJZfksOPECR7qzX6X0zK7eSHM/edit#heading=h.gqi05zuawjqx)
 | July 29  | Ethan Coon (ORNL)           | [Watershed modeling fundamentals: setup, data inputs, ATS model specifics (mesh generation/workflow)](https://docs.google.com/document/d/1_4SLrUNZCsKa-oClMirxW57AU-KqYtWZarAyIwqDK9Y/edit#) - [SLIDES](https://drive.google.com/drive/folders/1rK609Bc5VMoGp3DOAbbu4-xF1uV2mGuS) - [RECORDING](https://drive.google.com/drive/folders/1h97YLcXA8QECS8zOVi2OxoVG4fTLlXue)
-| Aug 12   | Laura Condon, Jun Zhang (UA)   | Watershed modeling fundamentals: ParFlow specifics, CONUS topography datasets/processing
+| Aug 12   | Laura Condon, Jun Zhang (UA)   | [Watershed modeling fundamentals: ParFlow specifics, CONUS topography datasets/processing](https://docs.google.com/document/d/1LXHrsgBtSksb51XsorbUMG8RCH8swy9nkvgmK0_cNqw/edit#)
 | Aug 26   | Hoang Tran (CSM)           | [Development of a full hydrological simulation for the Upper Colorado River Basin from 1983 to 2019](https://docs.google.com/document/d/1eYimmtEXwO00qFriOFCgGkTZzQeA5KBG-w3hWcAUCdg/edit#)
 | Sept 9   | Annual Meeting |
 | Sept 23  | Glenn Hammond (Sergi?)     | Reactive Transport Fundamentals
