@@ -39,7 +39,7 @@
 |July 24, 2020 |Pin Shuai, Jiang Peishi | [Jupyter Notebooks - JupyterLab Demo on NERSC, git for notebook tracking, and discussions on workflows](https://docs.google.com/document/d/1TR51Mh9vpWwJ6juZ1-e0N9bwOIcprdyoouizhnPO84w/edit#heading=h.y0woippppf3r) |
 |Aug 7, 2020 |Steve Smith | [Introduction to CMake](https://docs.google.com/document/d/1W5cEwfO2OT4OGWTVkt4JIF8JjgyS3tHhxdd8rGBBIa4/edit) |
 |Aug 21, 2020 |Steve Smith | CMake - part II 
-|Sept 18, 2020 | Steve Smith | CI Overview (tentative)
+|Sept 18, 2020 | Steve Smith | [Introduction to Continuous Integration Testing](https://docs.google.com/document/d/1nMx2DUGFSyqZAjtYpqHwYCSvIEri7sB6IwFhoRo7C2Q/edit)
 |Oct 2, 2020 |
 |Oct 16, 2020 |
 |Oct 30, 2020 |
