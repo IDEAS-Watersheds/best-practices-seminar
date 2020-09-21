@@ -16,7 +16,7 @@
 | Aug 26   | Hoang Tran (CSM)           | [Development of a full hydrological simulation for the Upper Colorado River Basin from 1983 to 2019](https://docs.google.com/document/d/1eYimmtEXwO00qFriOFCgGkTZzQeA5KBG-w3hWcAUCdg/edit#)
 | Sept 23  | Glenn Hammond, Sergi Molins   | Reactive Transport Fundamentals
 | Oct 7    | Annual Meeting  | 
-| Oct 21   | Kate Maher, Pamela Weisenhorn | SLAC Update, ANL Update (?)
+| Oct 21   |  | 
 | Nov 4    |
 | Nov 18   |
 | Dec 2    |
