@@ -39,7 +39,7 @@
 |Aug 7, 2020 |Steve Smith | [Introduction to CMake](https://docs.google.com/document/d/1W5cEwfO2OT4OGWTVkt4JIF8JjgyS3tHhxdd8rGBBIa4/edit) |
 |Aug 21, 2020 |Steve Smith | CMake - part II 
 |Sept 18, 2020 | Steve Smith | [Introduction to Continuous Integration Testing](https://docs.google.com/document/d/1nMx2DUGFSyqZAjtYpqHwYCSvIEri7sB6IwFhoRo7C2Q/edit)
-|Oct 30, 2020 | Steve Smith | [Introduction to Travis CI and GitHub CI Testing] (https://docs.google.com/document/d/11BqQv0EqkkQ0tJbdHpINC3rPpqnEqkguvp5ERttovpk/edit)
+|Oct 30, 2020 | Steve Smith | [Introduction to Travis CI and GitHub CI Testing](https://docs.google.com/document/d/11BqQv0EqkkQ0tJbdHpINC3rPpqnEqkguvp5ERttovpk/edit)
 |Nov 13, 2020 |
 |Dec 11, 2020 |
 
