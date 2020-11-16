@@ -38,7 +38,7 @@
 |Aug 21, 2020 |Steve Smith | CMake - part II 
 |Sept 18, 2020 | Steve Smith | [Introduction to Continuous Integration Testing](https://docs.google.com/document/d/1nMx2DUGFSyqZAjtYpqHwYCSvIEri7sB6IwFhoRo7C2Q/edit)
 |Oct 30, 2020 | Steve Smith | [Introduction to Travis CI and GitHub CI Testing](https://docs.google.com/document/d/11BqQv0EqkkQ0tJbdHpINC3rPpqnEqkguvp5ERttovpk/edit)
-|Nov 13, 2020 | David Moulton (LANL), Ryan Cabell (UCAR) | CI Use Cases:  CI setup with containers, overcoming runtime limits for longer running test suites |
+|Nov 13, 2020 | David Moulton (LANL), Ryan Cabell (UCAR) | [CI Part II - Use Cases:  CI setup with containers, overcoming runtime limits for longer running test suites](https://docs.google.com/document/d/1UmzEG31WannWDtOZdPQVh-SneRgK9xgyp9NI9arW-c4/edit) |
 |Dec 11, 2020 |
 
 
