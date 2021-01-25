@@ -39,12 +39,12 @@
 ## 2020
 | Date      |   Presenter                            | Title and Topic Description                    |
 |:----------|:---------------------------------------|:-----------------------------------------------|
-| Sept 9    | Steve Smith                            | Introduction & Kick-Off |
-| Oct 23    | Steve Smith                            | Introduction to Docker|
-| Nov 20    | David Moulton, Steve Smith             | Docker Part 2 (examples)|
-| Dec 18    | Steve Smith                            | Introduction to MPI |
-| Jan 15    | Steve Smith                            | Debugging Best Practices |
-| Feb 19    | HPC Best Practices Seminar             | Introduction to Kokkos|
+| Sept 9    | Steve Smith                            | [Introduction & Kick-Off](https://docs.google.com/document/d/1kBHI-YHcnylCx8Enhwiz3kMhfLZP_wJN7iX4UDNaH4w/edit) |
+| Oct 23    | Steve Smith                            | [Introduction to Docker](https://docs.google.com/document/d/15fFRlJLJDnFyleB9XotZIT4wd5iXE1FeETOU9EC9V8Q/edit)|
+| Nov 20    | David Moulton, Steve Smith             | [Docker Part 2 (examples)](https://drive.google.com/drive/folders/1Zc4mhcbcv0oPxtZ0pERLB_NOTe94gVjK)|
+| Dec 18    | Steve Smith                            | [Introduction to MPI](https://drive.google.com/drive/folders/1Zc4mhcbcv0oPxtZ0pERLB_NOTe94gVjK) |
+| Jan 15    | Steve Smith                            | [Debugging Best Practices](https://docs.google.com/presentation/d/1mFeXf7MuKDx-ws-lIjF0Ra3KixuJgYCH/edit#slide=id.p1) |
+| Feb 19    | HPC Best Practices Seminar             | [Introduction to Kokkos](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar037)|
 | June 26   | Steve Smith                            | Debugger Tutorial (DDT, and MAP profiler) |
 | July 10   | Pin Shuai, Jiang Peishi                | [Jupyter Notebooks Introduction - Setting up a basic workflow](https://docs.google.com/document/d/1rxZgGx3lPpPGN4D3JgU9O-b4b_dsmbneYzVFRBsYS5c/edit#heading=h.rx16jl6unwc4) |
 |July 24    | Pin Shuai, Jiang Peishi                | [Jupyter Notebooks - JupyterLab Demo on NERSC, git for notebook tracking, and discussions on workflows](https://docs.google.com/document/d/1TR51Mh9vpWwJ6juZ1-e0N9bwOIcprdyoouizhnPO84w/edit#heading=h.y0woippppf3r) |
