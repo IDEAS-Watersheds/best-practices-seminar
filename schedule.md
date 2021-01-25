@@ -9,7 +9,7 @@
 | Date     |  Presenter                             | Title and Topic Description                    |
 |:---------|:---------------------------------------|:-----------------------------------------------|
 | Jan 27   | Jesus Gomez-Velez, Vanderbilt University | Status on Network with Exchange and Subsurface Storage (NEXSS) model |
-| Feb 10   |                                        |                                                |
+| Feb 10   | Jesus Gomez-Velez, Vanderbilt University | Follow-up discussion on use of NEXSS and collaborations |
 | Feb 24   |                                        |                                                |
 | Mar 10
 | Mar 24
