@@ -10,8 +10,7 @@
 |:---------|:---------------------------------------|:-----------------------------------------------|
 | Jan 27   | Jesus Gomez-Velez, Vanderbilt University | Status on Network with Exchange and Subsurface Storage (NEXSS) model |
 | Feb 10   | Jesus Gomez-Velez, Vanderbilt University | Follow-up discussion on use of NEXSS and collaborations |
-| Feb 24   |                                        |                                                |
-| Mar 10
+| Mar 10   | Facilitators: Ethan Coon, Ahmad Jan      | Follow-up discussion on watershed workflows and NEXSS with Jesus |
 | Mar 24
 | Apr 7
 | Apr 21
