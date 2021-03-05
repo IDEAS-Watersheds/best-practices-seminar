@@ -43,8 +43,8 @@
 |:----------|:---------------------------------------|:-----------------------------------------------|
 | Feb 5     | Ian Lee, LLNL                          | [Open Source Software](https://www.exascaleproject.org/event/oss/) and discussion |
 | Feb 10    | IDEAS-ECP: HPC Best Practices Webinar  | [Good Practices for Research Software Documentation](https://www.exascaleproject.org/event/softwaredocumentation/) |
-| Feb 19    | Ian Lee, LLNL                          | Open Source Software Best Practices Discussion  |
-| Mar 5     | Steve Smith, LLNL                      | Continuous integration with Github Actions |
+| Feb 19    | Ian Lee, LLNL                          | [Open Source Software Best Practices Discussion](https://docs.google.com/document/d/1PBoG7Hu2zXhB9ZD-XG9E-FpQea3rB0a-QSrlKTtVioM/edit#heading=h.2wn1s1botowy)  |
+| Mar 5     | Steve Smith, LLNL                      | [Continuous integration with Github Actions](https://docs.google.com/document/d/1n_57QQFoYscbfLnyqaJu27PlAMIspxM8VaioOiAchCg/edit) |
 | Mar 19    | Jaro Hokkanen, Julich                  | Hydrologic modeling on GPUs with ParFlow — Leveraging accelerator architectures with modern techniques |
 | Apr 2     |
 | Apr 16    | 
