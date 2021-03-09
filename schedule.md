@@ -8,8 +8,8 @@
 ## 2021
 | Date     |  Presenter                             | Title and Topic Description                    |
 |:---------|:---------------------------------------|:-----------------------------------------------|
-| Jan 27   | Jesus Gomez-Velez, Vanderbilt University | Status on Network with Exchange and Subsurface Storage (NEXSS) model |
-| Feb 10   | Jesus Gomez-Velez, Vanderbilt University | Follow-up discussion on use of NEXSS and collaborations |
+| Jan 27   | Jesus Gomez-Velez, Vanderbilt University | Status on Network with Exchange and Subsurface Storage (NEXSS) model - [RECORDING](https://drive.google.com/drive/folders/1flGpB5URJ3PTObfgLw-_ncjJxf7zTtRC)|
+| Feb 10   | Jesus Gomez-Velez, Vanderbilt University | Follow-up discussion on use of NEXSS and collaborations - [RECORDING](https://drive.google.com/drive/folders/15pVkX8XbVsvVMtJYmCNAHlA7VoxnpUqx)|
 | Mar 10   | Facilitators: Ethan Coon, Ahmad Jan      | Follow-up discussion on watershed workflows and NEXSS with Jesus |
 | Mar 24
 | Apr 7
