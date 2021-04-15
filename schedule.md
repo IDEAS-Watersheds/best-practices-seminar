@@ -43,8 +43,8 @@
 | Feb 19    | Ian Lee, LLNL                          | [Open Source Software Best Practices Discussion](https://docs.google.com/document/d/1PBoG7Hu2zXhB9ZD-XG9E-FpQea3rB0a-QSrlKTtVioM/edit#heading=h.2wn1s1botowy)  |
 | Mar 5     | Steve Smith, LLNL                      | [Continuous integration with Github Actions](https://docs.google.com/document/d/1n_57QQFoYscbfLnyqaJu27PlAMIspxM8VaioOiAchCg/edit) |
 | Mar 19 @ 8AM PT   | Jaro Hokkanen, Julich                  | Performance portability on HPC accelerator architectures with modern techniques: The ParFlow blueprint |
-| Apr 16    | 
-| Apr 30    |
+| Apr 16    | Todd Gamblin, LLNL [(Video)](https://www.youtube.com/watch?v=edpgwyOD79E) |  Spack, open source package manager for HPC introduction |
+| Apr 30    | (TBD)  | Spack discussion with developer |
 | May 14    |
 | May 28    |
 | Jun 11    |
