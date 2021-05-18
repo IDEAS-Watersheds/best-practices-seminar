@@ -10,9 +10,9 @@
 |:---------|:---------------------------------------|:-----------------------------------------------|
 | Jan 27   | Jesus Gomez-Velez, Vanderbilt University | Status on Network with Exchange and Subsurface Storage (NEXSS) model - [RECORDING](https://drive.google.com/drive/folders/1flGpB5URJ3PTObfgLw-_ncjJxf7zTtRC)|
 | Feb 10   | Jesus Gomez-Velez, Vanderbilt University | Follow-up discussion on use of NEXSS and collaborations - [RECORDING](https://drive.google.com/drive/folders/15pVkX8XbVsvVMtJYmCNAHlA7VoxnpUqx)|
-| Mar 10   | Facilitators: Ethan Coon, Ahmad Jan      | Follow-up discussion on watershed workflows and NEXSS with Jesus |
+| Mar 10   | Facilitators: Ethan Coon, Ahmad Jan    | Follow-up discussion on watershed workflows and NEXSS with Jesus |
 | May 6
-| May 20
+| May 20   | Sergi Molins, LBNL                     | ATS simulation of reactive transport in integrated hydrology problems |
 | Jun 3
 | Jun 17
 | Jul 1
