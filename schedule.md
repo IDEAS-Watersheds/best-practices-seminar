@@ -46,7 +46,7 @@
 | Apr 16    | Todd Gamblin, LLNL [(Video)](https://www.youtube.com/watch?v=edpgwyOD79E) |  Spack, open source package manager for HPC introduction |
 | Apr 30    | (TBD)  | Spack discussion with developer |
 | May 14    | Steve Smith, LLNL                      | Documentation best practices, approach and tools discussion     |
-| May 27    | Sara Studwell, OSTI                    | DOE CODE - DOE's Software Services Platform for DOE-Funded Code |
+| May 27    | Sara Studwell, OSTI                    | [DOE CODE - DOE's Software Services Platform for DOE-Funded Code](https://docs.google.com/document/d/1jQZxYF8g2Zt3rBrJJcXnceDCdOWGoi7zCtUNTHH6fkw/edit?usp=sharing) |
 | Jun 10    |
 | Jun 24    |
 | Jul 8     |
