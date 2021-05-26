@@ -1,7 +1,7 @@
 # Schedule
-* Modeling Best Practices: Every other Wednesday 11:00-12:00 PM (PDT), 12:00 - 1:00 PM (MT), 2:00-3:00M (EDT)
+* Modeling Best Practices: Every other Thursday 9:00-10:00 AM (PT), 10:00 - 11:00 AM (MT), 12:00-1:00 PM (ET)
   - Lead:  IDEAS-Watersheds leads rotation
-* Software Best Practices: Every other Friday (11-12 PT)
+* Software Best Practices: Every other Thursday 9:00-10:00 AM (PT), 10:00 - 11:00 AM (MT), 12:00-1:00 PM (ET)
   - Lead:  Steve Smith (LLNL)
 
 # Modeling Case Studies Schedule
@@ -45,12 +45,12 @@
 | Mar 19 @ 8AM PT   | Jaro Hokkanen, Julich                  | Performance portability on HPC accelerator architectures with modern techniques: The ParFlow blueprint |
 | Apr 16    | Todd Gamblin, LLNL [(Video)](https://www.youtube.com/watch?v=edpgwyOD79E) |  Spack, open source package manager for HPC introduction |
 | Apr 30    | (TBD)  | Spack discussion with developer |
-| May 14    |
-| May 28    |
-| Jun 11    |
-| Jun 25    |
-| Jul 9     |
-| Jul 23    |
+| May 14    | Steve Smith, LLNL                      | Documentation best practices, approach and tools discussion     |
+| May 27    | Sara Studwell, OSTI                    | DOE CODE - DOE's Software Services Platform for DOE-Funded Code |
+| Jun 10    |
+| Jun 24    |
+| Jul 8     |
+| Jul 22    |
 
 ## 2020
 | Date      |   Presenter                            | Title and Topic Description                    |
