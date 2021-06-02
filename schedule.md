@@ -13,7 +13,7 @@
 | Mar 10   | Facilitators: Ethan Coon, Ahmad Jan    | Follow-up discussion on watershed workflows and NEXSS with Jesus |
 | May 6
 | May 20   | Sergi Molins, LBNL                     | ATS simulation of reactive transport in integrated hydrology problems |
-| Jun 3
+| Jun 3    | Ahmad Jan, ORNL                        | Multiscale modeling of hydrobiogeochemistry in river networks with ATS |
 | Jun 17
 | Jul 1
 
