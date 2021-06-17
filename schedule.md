@@ -6,15 +6,15 @@
 
 # Modeling Case Studies Schedule
 ## 2021
-| Date     |  Presenter                             | Title and Topic Description                    |
-|:---------|:---------------------------------------|:-----------------------------------------------|
-| Jan 27   | Jesus Gomez-Velez, Vanderbilt University | Status on Network with Exchange and Subsurface Storage (NEXSS) model - [RECORDING](https://drive.google.com/drive/folders/1flGpB5URJ3PTObfgLw-_ncjJxf7zTtRC)|
-| Feb 10   | Jesus Gomez-Velez, Vanderbilt University | Follow-up discussion on use of NEXSS and collaborations - [RECORDING](https://drive.google.com/drive/folders/15pVkX8XbVsvVMtJYmCNAHlA7VoxnpUqx)|
-| Mar 10   | Facilitators: Ethan Coon, Ahmad Jan    | Follow-up discussion on watershed workflows and NEXSS with Jesus |
+| Date        |  Presenter                             | Title and Topic Description                    |
+|:------------|:---------------------------------------|:-----------------------------------------------|
+| Jan 27      | Jesus Gomez-Velez, Vanderbilt University | Status on Network with Exchange and Subsurface Storage (NEXSS) model - [RECORDING](https://drive.google.com/drive/folders/1flGpB5URJ3PTObfgLw-_ncjJxf7zTtRC)|
+| Feb 10      | Jesus Gomez-Velez, Vanderbilt University | Follow-up discussion on use of NEXSS and collaborations - [RECORDING](https://drive.google.com/drive/folders/15pVkX8XbVsvVMtJYmCNAHlA7VoxnpUqx)|
+| Mar 10      | Facilitators: Ethan Coon, Ahmad Jan    | Follow-up discussion on watershed workflows and NEXSS with Jesus |
 | May 6
-| May 20   | Sergi Molins, LBNL                     | ATS simulation of reactive transport in integrated hydrology problems |
-| Jun 3    | Ahmad Jan, ORNL                        | Multiscale modeling of hydrobiogeochemistry in river networks with ATS |
-| Jun 17
+| May 20      | Sergi Molins, LBNL                     | ATS simulation of reactive transport in integrated hydrology problems |
+| Jun 3       | Ahmad Jan, ORNL                        | Multiscale modeling of hydrobiogeochemistry in river networks with ATS |
+| Jun 17      | Xuehang Song, PNNL; Ilhan Ozgen, LBNL  | Parallel Random Walk Particle Tracking for Unstructured PFLOTRAN Model; Flow path visualization for ATS-based integrated hydrological simulations |
 | Jul 1
 
 ## 2020
