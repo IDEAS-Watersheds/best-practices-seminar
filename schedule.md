@@ -16,6 +16,7 @@
 | Jun 3       | Ahmad Jan, ORNL                        | Multiscale modeling of hydrobiogeochemistry in river networks with ATS |
 | Jun 17      | Xuehang Song, PNNL; Ilhan Ozgen, LBNL  | Parallel Random Walk Particle Tracking for Unstructured PFLOTRAN Model; Flow path visualization for ATS-based integrated hydrological simulations |
 | Jul 1       | Ben Sulman, ORNL                       | Simulating soil biogeochemistry using Alquimia, Python, and ELM - [NOTES](https://docs.google.com/document/d/199RHFcKfODWmDPGkSpjVv5eCze7-FNqJx8dp5qv43So/edit?usp=sharing)| 
+| Jul 15.     | Heather Golden and Grey Evenson, EPA.  | Introduction to SWAT Modifications for Non-Floodplain Wetlands and SWAT-DSF [NOTES](https://docs.google.com/document/d/1KsxDNCgqq7Gq7PT1emsySqmL_8RRx13RuQUSRMzxLqU/edit?usp=sharing)|
 
 
 ## 2020
