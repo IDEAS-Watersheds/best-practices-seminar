@@ -53,8 +53,9 @@
 | May 27    | Sara Studwell, OSTI                    | [DOE CODE - DOE's Software Services Platform for DOE-Funded Code](https://docs.google.com/document/d/1jQZxYF8g2Zt3rBrJJcXnceDCdOWGoi7zCtUNTHH6fkw/edit?usp=sharing) |
 | Jun 10    | Steve Smith, LLNL                      | [Discussion: Software Ecosystem inclusion, deployment, and effective use. ](https://docs.google.com/document/d/17K6i3zXf2YsbptPtJp-L4vsd7yAkA4V6IdVFnGJA1L4/edit?usp=sharing) |
 | Jun 24    | Steve Smith, LLNL (with Ethan Coon, Glenn Hammond, and David Moulton) | [Demos/Discussion:  Command line tools - your secret to productivity on HPC systems](https://docs.google.com/document/d/1KC654ZkQ-8dvaPYJDUB5KPrEkaOkNQyNSiHXbnQ_bGM/edit?usp=sharing) |
-| Jul 8     |
-| Jul 22    |
+| Jul 8     | Steve Smith, LLNL  | [Discussion: ParFlow in DOE Code, DOIs, and discussion of best practices for ESS](https://docs.google.com/document/d/1RFYDZC2dB3XmzoxBIql-drnM7aLqUf6sE800sO0tatI/edit?usp=sharing) |
+| Jul 22    | Cancelled | |
+| Aug 5 | Steve Smith, LLNL; David Moulton, LANL | Updates on the IDEAS-Watersheds Software Ecosystem | 
 
 ## 2020
 | Date      |   Presenter                            | Title and Topic Description                    |
