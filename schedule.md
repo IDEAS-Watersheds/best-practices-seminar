@@ -56,6 +56,8 @@
 | Jul 8     | Steve Smith, LLNL  | [Discussion: ParFlow in DOE Code, DOIs, and discussion of best practices for ESS](https://docs.google.com/document/d/1RFYDZC2dB3XmzoxBIql-drnM7aLqUf6sE800sO0tatI/edit?usp=sharing) |
 | Jul 22    | Cancelled | |
 | Aug 5 | Steve Smith, LLNL; David Moulton, LANL | Updates on the IDEAS-Watersheds Software Ecosystem | 
+|       | Break for ESS PI Meeting | |
+| Sep 30 | Steve Smith, LLNL | Spack for developers ([Discussion Notes](https://docs.google.com/document/d/1MwdmCvUuAKO7pHOIlNVuieJwW3qO34YItx-UrJRaAjI/edit?usp=sharing))| 
 
 ## 2020
 | Date      |   Presenter                            | Title and Topic Description                    |
