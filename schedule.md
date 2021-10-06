@@ -12,13 +12,14 @@
 | Feb 10      | Jesus Gomez-Velez, Vanderbilt University | Follow-up discussion on use of NEXSS and collaborations - [RECORDING](https://drive.google.com/drive/folders/15pVkX8XbVsvVMtJYmCNAHlA7VoxnpUqx)|
 | Mar 10      | Facilitators: Ethan Coon, Ahmad Jan    | Follow-up discussion on watershed workflows and NEXSS with Jesus |
 | May 6
-| May 20      | Sergi Molins, LBNL                     | ATS simulation of reactive transport in integrated hydrology problems |
-| Jun 3       | Ahmad Jan, ORNL                        | Multiscale modeling of hydrobiogeochemistry in river networks with ATS |
-| Jun 17      | Xuehang Song, PNNL; Ilhan Ozgen, LBNL  | Parallel Random Walk Particle Tracking for Unstructured PFLOTRAN Model; Flow path visualization for ATS-based integrated hydrological simulations |
-| Jul 1       | Ben Sulman, ORNL                       | Simulating soil biogeochemistry using Alquimia, Python, and ELM - [NOTES](https://docs.google.com/document/d/199RHFcKfODWmDPGkSpjVv5eCze7-FNqJx8dp5qv43So/edit?usp=sharing)| 
-| Jul 15      | Heather Golden and Grey Evenson, EPA.  | Introduction to SWAT Modifications for Non-Floodplain Wetlands and SWAT-DSF [NOTES](https://docs.google.com/document/d/1KsxDNCgqq7Gq7PT1emsySqmL_8RRx13RuQUSRMzxLqU/edit?usp=sharing)|
-| Jul 29      | Reed Maxwell and Chen Yang, Princeton  | The road to accelerate particle tracking of residence time distributions and source water mixing towards continental scale [NOTES](https://docs.google.com/document/d/10E9viTxwHsuBN06uojdBb-_I9Wl-6udmB87VsOtTKd4/edit?usp=sharing)|
-| Aug 12      | Break for ESS-PI Meeting               | | 
+| May 20      | Sergi Molins, LBNL                     | ATS simulation of reactive transport in integrated hydrology problems [RECORDING](https://drive.google.com/drive/folders/1mn4k-Geh_XNX560maISvIP_BIRTm2uRf)|
+| Jun 3       | Ahmad Jan, ORNL                        | Multiscale modeling of hydrobiogeochemistry in river networks with ATS [RECORDING](https://drive.google.com/drive/folders/1xKE1gF-soFtsjNSUxi0gok13ZB-xoy5u)|
+| Jun 17      | Xuehang Song, PNNL; Ilhan Ozgen, LBNL  | Parallel Random Walk Particle Tracking for Unstructured PFLOTRAN Model; Flow path visualization for ATS-based integrated hydrological simulations [RECORDING](https://drive.google.com/drive/folders/1kRApK6hUNdd4mlWgq33qs7blqcs4vd0u)|
+| Jul 1       | Ben Sulman, ORNL                       | Simulating soil biogeochemistry using Alquimia, Python, and ELM - [NOTES](https://docs.google.com/document/d/199RHFcKfODWmDPGkSpjVv5eCze7-FNqJx8dp5qv43So/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/137ug10izb9HCPYEySFgty4dJZagzTkuI)| 
+| Jul 15      | Heather Golden and Grey Evenson, EPA.  | Introduction to SWAT Modifications for Non-Floodplain Wetlands and SWAT-DSF [NOTES](https://docs.google.com/document/d/1KsxDNCgqq7Gq7PT1emsySqmL_8RRx13RuQUSRMzxLqU/edit?usp=sharing) [RECORDING] (https://drive.google.com/drive/folders/1O4Enyfhw7Z_0GWGuWhqO6QHcuIYJws1X)|
+| Jul 29      | Reed Maxwell and Chen Yang, Princeton  | The road to accelerate particle tracking of residence time distributions and source water mixing towards continental scale [NOTES](https://docs.google.com/document/d/10E9viTxwHsuBN06uojdBb-_I9Wl-6udmB87VsOtTKd4/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/1fuwMm7GnlUlaLxT2XkB3AfYlyEaFk5kd)|
+| Aug 12      | Break for ESS-PI Meeting               | |
+| Sep 16      | John Bargar                            |  Biogeochemical reactivity of floodplain interfaces [RECORDING](https://drive.google.com/drive/folders/1-SAhePM21moQQH7_AGtmzkLF9w437A3I) | 
 
 
 ## 2020
@@ -42,22 +43,22 @@
 ## 2021
 | Date      |   Presenter                            | Title and Topic Description                    |
 |:----------|:---------------------------------------|:-----------------------------------------------|
-| Feb 5     | Ian Lee, LLNL                          | [Open Source Software](https://www.exascaleproject.org/event/oss/) and discussion |
+| Feb 5     | Ian Lee, LLNL                          | [Open Source Software](https://www.exascaleproject.org/event/oss/) and discussion [RECORDING](https://drive.google.com/drive/folders/1UkDkz2ZRXXREEgoQm95pzxyVbA79oonT)|
 | Feb 10    | IDEAS-ECP: HPC Best Practices Webinar  | [Good Practices for Research Software Documentation](https://www.exascaleproject.org/event/softwaredocumentation/) |
-| Feb 19    | Ian Lee, LLNL                          | [Open Source Software Best Practices Discussion](https://docs.google.com/document/d/1PBoG7Hu2zXhB9ZD-XG9E-FpQea3rB0a-QSrlKTtVioM/edit#heading=h.2wn1s1botowy)  |
-| Mar 5     | Steve Smith, LLNL                      | [Continuous integration with Github Actions](https://docs.google.com/document/d/1n_57QQFoYscbfLnyqaJu27PlAMIspxM8VaioOiAchCg/edit) |
-| Mar 19 @ 8AM PT   | Jaro Hokkanen, Julich                  | Performance portability on HPC accelerator architectures with modern techniques: The ParFlow blueprint |
+| Feb 19    | Ian Lee, LLNL                          | [Open Source Software Best Practices Discussion](https://docs.google.com/document/d/1PBoG7Hu2zXhB9ZD-XG9E-FpQea3rB0a-QSrlKTtVioM/edit#heading=h.2wn1s1botowy) [RECORDING](https://drive.google.com/drive/folders/1y7ekJwhGiImBDrOpVkR77wuQHhZ9AkAn) |
+| Mar 5     | Steve Smith, LLNL                      | [Continuous integration with Github Actions](https://docs.google.com/document/d/1n_57QQFoYscbfLnyqaJu27PlAMIspxM8VaioOiAchCg/edit) [RECORDING](https://drive.google.com/drive/folders/1APpX9-JPaVDu80XNPT-mBYaLD7zhPZef)|
+| Mar 19 @ 8AM PT   | Jaro Hokkanen, Julich                  | Performance portability on HPC accelerator architectures with modern techniques: The ParFlow blueprint [RECORDING](https://drive.google.com/drive/folders/1Ye-IHzQmx47syHH4RTwxzu3Bwr7AMGiX)|
 | Apr 16    | Todd Gamblin, LLNL [(Video)](https://www.youtube.com/watch?v=edpgwyOD79E) |  Spack, open source package manager for HPC introduction |
 | Apr 30    | (TBD)  | Spack discussion with developer |
-| May 14    | Steve Smith, LLNL                      | Documentation best practices, approach and tools discussion     |
-| May 27    | Sara Studwell, OSTI                    | [DOE CODE - DOE's Software Services Platform for DOE-Funded Code](https://docs.google.com/document/d/1jQZxYF8g2Zt3rBrJJcXnceDCdOWGoi7zCtUNTHH6fkw/edit?usp=sharing) |
-| Jun 10    | Steve Smith, LLNL                      | [Discussion: Software Ecosystem inclusion, deployment, and effective use. ](https://docs.google.com/document/d/17K6i3zXf2YsbptPtJp-L4vsd7yAkA4V6IdVFnGJA1L4/edit?usp=sharing) |
-| Jun 24    | Steve Smith, LLNL (with Ethan Coon, Glenn Hammond, and David Moulton) | [Demos/Discussion:  Command line tools - your secret to productivity on HPC systems](https://docs.google.com/document/d/1KC654ZkQ-8dvaPYJDUB5KPrEkaOkNQyNSiHXbnQ_bGM/edit?usp=sharing) |
-| Jul 8     | Steve Smith, LLNL  | [Discussion: ParFlow in DOE Code, DOIs, and discussion of best practices for ESS](https://docs.google.com/document/d/1RFYDZC2dB3XmzoxBIql-drnM7aLqUf6sE800sO0tatI/edit?usp=sharing) |
+| May 14    | Steve Smith, LLNL                      | Documentation best practices, approach and tools discussion [RECORDING](https://drive.google.com/drive/folders/14Yd6JdFxcItwYowDos8rsmP6FjWlKFIn) |
+| May 27    | Sara Studwell, OSTI                    | [DOE CODE - DOE's Software Services Platform for DOE-Funded Code](https://docs.google.com/document/d/1jQZxYF8g2Zt3rBrJJcXnceDCdOWGoi7zCtUNTHH6fkw/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/1VOLL0PctOdw44e7mDi11rmAiKRJq1Pc_)|
+| Jun 10    | Steve Smith, LLNL                      | [Discussion: Software Ecosystem inclusion, deployment, and effective use. ](https://docs.google.com/document/d/17K6i3zXf2YsbptPtJp-L4vsd7yAkA4V6IdVFnGJA1L4/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/1VbzVNIcF3VIM8TiIdshbx5X-ihiSa7Uo)|
+| Jun 24    | Steve Smith, LLNL (with Ethan Coon, Glenn Hammond, and David Moulton) | [Demos/Discussion:  Command line tools - your secret to productivity on HPC systems](https://docs.google.com/document/d/1KC654ZkQ-8dvaPYJDUB5KPrEkaOkNQyNSiHXbnQ_bGM/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/1zArFi_wJCxcoplFkD6svPYhHqL6qCuFZ)|
+| Jul 8     | Steve Smith, LLNL  | [Discussion: ParFlow in DOE Code, DOIs, and discussion of best practices for ESS](https://docs.google.com/document/d/1RFYDZC2dB3XmzoxBIql-drnM7aLqUf6sE800sO0tatI/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/1BoQ0y-HFy-35VRamgINHJPeCmgPYuIxl) |
 | Jul 22    | Cancelled | |
 | Aug 5 | Steve Smith, LLNL; David Moulton, LANL | Updates on the IDEAS-Watersheds Software Ecosystem | 
 |       | Break for ESS PI Meeting | |
-| Sep 30 | Steve Smith, LLNL | Spack for developers ([Discussion Notes](https://docs.google.com/document/d/1MwdmCvUuAKO7pHOIlNVuieJwW3qO34YItx-UrJRaAjI/edit?usp=sharing))| 
+| Sep 30 | Steve Smith, LLNL | Spack for developers ([Discussion Notes](https://docs.google.com/document/d/1MwdmCvUuAKO7pHOIlNVuieJwW3qO34YItx-UrJRaAjI/edit?usp=sharing)) [RECORDING](https://drive.google.com/drive/folders/1Pm4mUCqfwHQnPoYOKYt_qLAlmVMLtANA)| 
 
 ## 2020
 | Date      |   Presenter                            | Title and Topic Description                    |
