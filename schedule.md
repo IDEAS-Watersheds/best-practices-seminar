@@ -58,7 +58,7 @@
 | Jul 22    | Cancelled | |
 | Aug 5 | Steve Smith, LLNL; David Moulton, LANL | Updates on the IDEAS-Watersheds Software Ecosystem | 
 |       | Break for ESS PI Meeting | |
-| Sep 30 | Steve Smith, LLNL | Spack for developers ([Discussion Notes](https://docs.google.com/document/d/1MwdmCvUuAKO7pHOIlNVuieJwW3qO34YItx-UrJRaAjI/edit?usp=sharing)) [RECORDING](https://drive.google.com/drive/folders/1Pm4mUCqfwHQnPoYOKYt_qLAlmVMLtANA) [Markdown](https://drive.google.com/drive/folders/1Zc4mhcbcv0oPxtZ0pERLB_NOTe94gVjK)| 
+| Sep 30 | Steve Smith, LLNL | Spack for developers ([Discussion Notes](https://docs.google.com/document/d/1MwdmCvUuAKO7pHOIlNVuieJwW3qO34YItx-UrJRaAjI/edit?usp=sharing)) [RECORDING](https://drive.google.com/drive/folders/1Pm4mUCqfwHQnPoYOKYt_qLAlmVMLtANA) [Markdown](https://drive.google.com/file/d/13I51VrAyX3JemYQ5eLogFiawtelRxDfz/view?usp=sharing)| 
 
 ## 2020
 | Date      |   Presenter                            | Title and Topic Description                    |
