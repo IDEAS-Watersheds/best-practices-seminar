@@ -20,7 +20,7 @@
 | Jul 29      | Reed Maxwell and Chen Yang, Princeton  | The road to accelerate particle tracking of residence time distributions and source water mixing towards continental scale [NOTES](https://docs.google.com/document/d/10E9viTxwHsuBN06uojdBb-_I9Wl-6udmB87VsOtTKd4/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/1fuwMm7GnlUlaLxT2XkB3AfYlyEaFk5kd)|
 | Aug 12      | Break for ESS-PI Meeting               | |
 | Sep 16      | John Bargar, Tristan Babey, Bradley Tolar (Stanford) | Biogeochemical reactivity of floodplain interfaces [RECORDING](https://drive.google.com/drive/folders/1-SAhePM21moQQH7_AGtmzkLF9w437A3I) |
-| Oct 6       | Brian Rogers, Lijing Wang (Stanford) | Site overview & Instrumentation + Brief overview of ParFlow model for site and goals + Initial hydrologic model results using Modflow + Estimation of hydrologic parameters and their uncertainty | [NOTES](https://docs.google.com/document/d/1Q-I6ekKvBeftN2AMKmPIH7odZUc4eeFkWT6ohv9PHY0/edit) [SLIDES](https://drive.google.com/drive/folders/12bR_9eOYqzyEH8y9adb7FPLBU_lwnycM) |
+| Oct 6       | Brian Rogers, Lijing Wang (Stanford) | Site overview & Instrumentation + Brief overview of ParFlow model for site and goals + Initial hydrologic model results using Modflow + Estimation of hydrologic parameters and their uncertainty [NOTES](https://docs.google.com/document/d/1Q-I6ekKvBeftN2AMKmPIH7odZUc4eeFkWT6ohv9PHY0/edit) [SLIDES](https://drive.google.com/drive/folders/12bR_9eOYqzyEH8y9adb7FPLBU_lwnycM) |
 
 
 ## 2020
