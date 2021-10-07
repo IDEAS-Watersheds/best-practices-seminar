@@ -19,7 +19,7 @@
 | Jul 15      | Heather Golden and Grey Evenson, EPA.  | Introduction to SWAT Modifications for Non-Floodplain Wetlands and SWAT-DSF [NOTES](https://docs.google.com/document/d/1KsxDNCgqq7Gq7PT1emsySqmL_8RRx13RuQUSRMzxLqU/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/1O4Enyfhw7Z_0GWGuWhqO6QHcuIYJws1X)|
 | Jul 29      | Reed Maxwell and Chen Yang, Princeton  | The road to accelerate particle tracking of residence time distributions and source water mixing towards continental scale [NOTES](https://docs.google.com/document/d/10E9viTxwHsuBN06uojdBb-_I9Wl-6udmB87VsOtTKd4/edit?usp=sharing) [RECORDING](https://drive.google.com/drive/folders/1fuwMm7GnlUlaLxT2XkB3AfYlyEaFk5kd)|
 | Aug 12      | Break for ESS-PI Meeting               | |
-| Sep 16      | John Bargar, Tristan Babey, Bradley Toler (Stanford) | Biogeochemical reactivity of floodplain interfaces [RECORDING](https://drive.google.com/drive/folders/1-SAhePM21moQQH7_AGtmzkLF9w437A3I) |
+| Sep 16      | John Bargar, Tristan Babey, Bradley Tolar (Stanford) | Biogeochemical reactivity of floodplain interfaces [RECORDING](https://drive.google.com/drive/folders/1-SAhePM21moQQH7_AGtmzkLF9w437A3I) |
 | Oct 6       | Brian Rogers, Lijing Wang (Stanford) | Site overview & Instrumentation + Brief overview of ParFlow model for site and goals + Initial hydrologic model results using Modflow + Estimation of hydrologic parameters and their uncertainty | |
 
 
