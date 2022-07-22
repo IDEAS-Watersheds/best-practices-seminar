@@ -5,6 +5,13 @@
   - Lead:  Steve Smith (LLNL)
 
 # Modeling Case Studies Schedule
+## 2022
+| Date        |  Presenter                             | Title and Topic Description                    |
+|:------------|:---------------------------------------|:-----------------------------------------------|
+| Jun 13      | Scott Painter, ORNL                    | Projections of permafrost thaw and subsidence using a multiscale model from IDEAS-Classic |
+| Jun 27.     | Qina Yan, LBNL                        | Impacts of soil erosion on soil organic matter redistribution in opposite-facing hillslopes in a mountainous area |
+
+
 ## 2021
 | Date        |  Presenter                             | Title and Topic Description                    |
 |:------------|:---------------------------------------|:-----------------------------------------------|
