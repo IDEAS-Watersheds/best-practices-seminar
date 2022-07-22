@@ -48,6 +48,12 @@
 
 # Software Best Practices Schedule
 
+## 2022
+| Date      |   Presenter                            | Title and Topic Description                    |
+|:----------|:---------------------------------------|:-----------------------------------------------|
+| Jun 20    | Steve Smith, LLNL; Giacomo Capodaglio, LANL  | Updates on Spack for ATS and ParFlow/Ecoslim – open discussion on next steps |
+| July 18   | Amy Defnet, Calla Chennault, and Reed Maxwell, Princeton | ParFlow Documentation: Moving from LaTeX to a Wiki format and into the modern era | 
+ 
 ## 2021
 | Date      |   Presenter                            | Title and Topic Description                    |
 |:----------|:---------------------------------------|:-----------------------------------------------|
