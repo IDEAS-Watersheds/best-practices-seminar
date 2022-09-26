@@ -8,9 +8,10 @@
 ## 2022
 | Date        |  Presenter                             | Title and Topic Description                    |
 |:------------|:---------------------------------------|:-----------------------------------------------|
-| Jun 13      | Scott Painter, ORNL                    | Projections of permafrost thaw and subsidence using a multiscale model from IDEAS-Classic |
-| Jun 27.     | Qina Yan, LBNL                        | Impacts of soil erosion on soil organic matter redistribution in opposite-facing hillslopes in a mountainous area |
-
+| Jun 13      | Scott Painter, ORNL                    | Projections of permafrost thaw and subsidence using a multiscale model from IDEAS-Classic - [RECORDING](https://drive.google.com/drive/folders/1dGxROq4UHMmqdhDRTsIYs7HylpQXGLxm?usp=sharing) |
+| Jun 27      | Qina Yan, LBNL                         | Impacts of soil erosion on soil organic matter redistribution in opposite-facing hillslopes in a mountainous area - [RECORDING](https://drive.google.com/drive/folders/1nieDp2TC8PIT8vHEmJin7LZcDuOZbDT2?usp=sharing) |
+| Aug 22      | Zhi Li, PNNL                           | ATS-PFLOTRAN simulations at Wenas Creek Watershed to study wildfire effects - [RECORDING](https://drive.google.com/drive/folders/1zGGcC8vovWGspFg873Jl9wfM6XMYdze3?usp=sharing) |
+| Sep 19      | Bing Li, PNNL                          | Investigating the integrated effects of intermittent inundation and rainfall on carbon status and fluxes at the coastal terrestrial-aquatic interface - [RECORDING](https://drive.google.com/drive/folders/1N7rcXGhkvEDVpPcq4seSOw1m_umEfbvJ?usp=sharing) |
 
 ## 2021
 | Date        |  Presenter                             | Title and Topic Description                    |
@@ -51,9 +52,11 @@
 ## 2022
 | Date      |   Presenter                            | Title and Topic Description                    |
 |:----------|:---------------------------------------|:-----------------------------------------------|
-| Jun 20    | Steve Smith, LLNL; Giacomo Capodaglio, LANL  | Updates on Spack for ATS and ParFlow/Ecoslim – open discussion on next steps |
-| July 18   | Amy Defnet, Calla Chennault, and Reed Maxwell, Princeton | ParFlow Documentation: Moving from LaTeX to a Wiki format and into the modern era | 
- 
+| Jun 20    | Steve Smith, LLNL; Giacomo Capodaglio, LANL  | Updates on Spack for ATS and ParFlow/Ecoslim – open discussion on next steps - [RECORDING](https://drive.google.com/drive/folders/1SlJlKsT0tQR_u0P6_sP3ZKjteHnMuc0d?usp=sharing)|
+| July 18   | Amy Defnet, Calla Chennault, and Reed Maxwell, Princeton | ParFlow Documentation: Moving from LaTeX to a Wiki format and into the modern era - [RECORDING](https://drive.google.com/drive/folders/1igsi_l5H5XwCLzhkps86-2ra4-8tmfkS?usp=sharing) |
+| Aug 29    | Steve Smith, LLNL                      | Community Policies for codes and tools in the IDEAS-Watersheds Software Ecosystem - [RECORDING](https://drive.google.com/drive/folders/1HtIPh0LHV5FGE6VWZg-uG4tQPfJSHHDa?usp=sharing) | 
+| Sep 26    | Steve Smith, LLNL                      | HPC job scheduling basics with SLURM on NERSC: user experiences and lessons learned - [RECORDING](https://drive.google.com/drive/folders/1cNhyYBcHrDdbWnlI0iK-87Rr1wFtx4w9?usp=sharing) |
+
 ## 2021
 | Date      |   Presenter                            | Title and Topic Description                    |
 |:----------|:---------------------------------------|:-----------------------------------------------|
