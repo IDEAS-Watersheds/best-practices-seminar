@@ -55,7 +55,7 @@
 | Jun 20    | Steve Smith, LLNL; Giacomo Capodaglio, LANL  | Updates on Spack for ATS and ParFlow/Ecoslim – open discussion on next steps - [RECORDING](https://drive.google.com/drive/folders/1SlJlKsT0tQR_u0P6_sP3ZKjteHnMuc0d?usp=sharing)|
 | July 18   | Amy Defnet, Calla Chennault, and Reed Maxwell, Princeton | ParFlow Documentation: Moving from LaTeX to a Wiki format and into the modern era - [RECORDING](https://drive.google.com/drive/folders/1igsi_l5H5XwCLzhkps86-2ra4-8tmfkS?usp=sharing) |
 | Aug 29    | Steve Smith, LLNL                      | Community Policies for codes and tools in the IDEAS-Watersheds Software Ecosystem - [RECORDING](https://drive.google.com/drive/folders/1HtIPh0LHV5FGE6VWZg-uG4tQPfJSHHDa?usp=sharing) | 
-| Sep 26    | Steve Smith, LLNL                      | HPC job scheduling basics with SLURM on NERSC: user experiences and lessons learned - [RECORDING](https://drive.google.com/drive/folders/1cNhyYBcHrDdbWnlI0iK-87Rr1wFtx4w9?usp=sharing) |
+| Sep 26    | Steve Smith, LLNL                      | HPC job scheduling basics with SLURM on NERSC: user experiences and lessons learned - [RECORDING](https://drive.google.com/drive/folders/1cNhyYBcHrDdbWnlI0iK-87Rr1wFtx4w9?usp=sharing) [SLIDES](https://docs.google.com/presentation/d/1OTargYCEhQPnv4SIGOLFSjixPibyHHkx/edit?usp=sharing&ouid=111484267752678144523&rtpof=true&sd=true) |
 
 ## 2021
 | Date      |   Presenter                            | Title and Topic Description                    |
