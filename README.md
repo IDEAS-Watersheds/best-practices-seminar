@@ -1,7 +1,12 @@
+# IDEAS Watersheds Best Practices 
+
+Sharing best practices in modeling and software development.
+
 # Schedule
-* Modeling Best Practices: Every other Thursday 9:00-10:00 AM (PT), 10:00 - 11:00 AM (MT), 12:00-1:00 PM (ET)
+
+* Modeling Best Practices: Every other Monday 10:00-11:00 AM (PT), 11:00 - 12:00 AM (MT), 1:00-2:00 PM (ET)
   - Lead:  IDEAS-Watersheds leads rotation
-* Software Best Practices: Every other Thursday 9:00-10:00 AM (PT), 10:00 - 11:00 AM (MT), 12:00-1:00 PM (ET)
+* Software Best Practices: Every other Monday 10:00-11:00 AM (PT), 11:00 - 12:00 AM (MT), 1:00-2:00 PM (ET)
   - Lead:  Steve Smith (LLNL)
 
 # Modeling Case Studies Schedule
