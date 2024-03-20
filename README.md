@@ -10,6 +10,12 @@ Sharing best practices in modeling and software development.
   - Lead:  Steve Smith (LLNL)
 
 # Modeling Case Studies Schedule
+
+## 2023
+| Date        |  Presenter                             | Title and Topic Description                    |
+|:------------|:---------------------------------------|:-----------------------------------------------|
+| May 2       | Zhi Li, PNNL                           | Watershed hydrologic and biogeochemical responses to wildfires in the Pacific Northwest|
+
 ## 2022
 | Date        |  Presenter                             | Title and Topic Description                    |
 |:------------|:---------------------------------------|:-----------------------------------------------|
@@ -17,6 +23,7 @@ Sharing best practices in modeling and software development.
 | Jun 27      | Qina Yan, LBNL                         | Impacts of soil erosion on soil organic matter redistribution in opposite-facing hillslopes in a mountainous area - [RECORDING](https://drive.google.com/drive/folders/1nieDp2TC8PIT8vHEmJin7LZcDuOZbDT2?usp=sharing) |
 | Aug 22      | Zhi Li, PNNL                           | ATS-PFLOTRAN simulations at Wenas Creek Watershed to study wildfire effects - [RECORDING](https://drive.google.com/drive/folders/1zGGcC8vovWGspFg873Jl9wfM6XMYdze3?usp=sharing) |
 | Sep 19      | Bing Li, PNNL                          | Investigating the integrated effects of intermittent inundation and rainfall on carbon status and fluxes at the coastal terrestrial-aquatic interface - [RECORDING](https://drive.google.com/drive/folders/1N7rcXGhkvEDVpPcq4seSOw1m_umEfbvJ?usp=sharing) |
+| Oct 3       | Kate Maher, Stanford; Jenny Druhan, UIUC; Alexis Navarre-Stichler, CSM; Sergi Molins, LBNL| CrunchFlow user experiences and community development: Panel discussion|
 
 ## 2021
 | Date        |  Presenter                             | Title and Topic Description                    |
@@ -53,6 +60,12 @@ Sharing best practices in modeling and software development.
 
 
 # Software Best Practices Schedule
+
+## 2023
+| Date      |   Presenter                            | Title and Topic Description                    |
+|:----------|:---------------------------------------|:-----------------------------------------------|
+| May 9     | Sergi Molins, LBNL                     | Discussion on setting up reactive transport simulations using external engines via Alquimia - Part I|
+| May 30    | Sergi Molins, LBNL                     | Discussion on setting up reactive transport simulations using external engines via Alquimia - Part II|
 
 ## 2022
 | Date      |   Presenter                            | Title and Topic Description                    |
