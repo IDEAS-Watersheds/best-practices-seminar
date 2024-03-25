@@ -11,10 +11,20 @@ Sharing best practices in modeling and software development.
 
 # Modeling Case Studies Schedule
 
+## 2024
+| Date        |  Presenter                             | Title and Topic Description                    |
+|:------------|:---------------------------------------|:-----------------------------------------------|
+| March 19 | Jinyun Tang | EcoSIM: a modular code to explicitly simulate plant-soil-microbial interactions for terrestrial ecosystems |
+
 ## 2023
 | Date        |  Presenter                             | Title and Topic Description                    |
 |:------------|:---------------------------------------|:-----------------------------------------------|
-| May 2       | Zhi Li, PNNL                           | Watershed hydrologic and biogeochemical responses to wildfires in the Pacific Northwest|
+| May 2      | Zhi Li, PNNL                     | Watershed hydrologic and biogeochemical responses to wildfires in the Pacific Northwest |
+| May 9 | Sergi Molins, LBNL | Discussion on setting up reactive transport simulations using external engines via Alquimia |
+| May 30 | Sergi Molins, LBNL | Discussion on setting up reactive transport simulations using external engines via Alquimia Part II |
+| June 27 | Roser Matamala, Argonne | Ideas for a Terrestrial Wetland Function and Resilience Scientific Focus Area |
+| Aug 15 | Phong Le, ORNL | Evaluating a multiscale stream transport model using a long-term watershed-scale tracer test|
+| Oct 10 | Zexuan Xu, LBNL | Understanding the uncertainty of streamflow measurements and water budget at a headwater mountainous watershed |
 
 ## 2022
 | Date        |  Presenter                             | Title and Topic Description                    |
@@ -61,11 +71,21 @@ Sharing best practices in modeling and software development.
 
 # Software Best Practices Schedule
 
+## 2024
+| Date      |   Presenter                            | Title and Topic Description                    |
+|:----------|:---------------------------------------|:-----------------------------------------------|
+| March 5 | Steve Smith, George Artavanis, Rich Fiorella| HPC Performance Discussion and Container Update|
+
 ## 2023
 | Date      |   Presenter                            | Title and Topic Description                    |
 |:----------|:---------------------------------------|:-----------------------------------------------|
-| May 9     | Sergi Molins, LBNL                     | Discussion on setting up reactive transport simulations using external engines via Alquimia - Part I|
-| May 30    | Sergi Molins, LBNL                     | Discussion on setting up reactive transport simulations using external engines via Alquimia - Part II|
+| May 9    | Sergi Molins, LBNL  | Discussion on setting up reactive transport simulations using external engines via Alquimia - Part I |
+| May 30    | Sergi Molins, LBNL  | Discussion on setting up reactive transport simulations using external engines via Alquimia - Part II |
+| Aug 1 | Steven Smith, LLNL | Code Reviews |
+| Aug 22 | David Moulton, LANL & Rich Fiorella (LANL) | Hands-on docker tips for working with containers in our software ecosystem |
+| Sept 12 | Saubhagya Rathore, ORNL | A Stream-aligned Mixed/Arbitrary Polyhedral Meshing Strategy for Integrated Surface/Subsurface Hydrological Models |
+| Oct 3 | Steven Smith, LLNL & David Moulton, LANL | Running HPC Containers at NERSC using Shifter |
+| Oct 24 | David Moulton, LANL & Glenn Hammond, PNNL | Continuous integration tools are ready for everyone: experiences with Amanzi-ATS and PFLOTRAN |
 
 ## 2022
 | Date      |   Presenter                            | Title and Topic Description                    |
